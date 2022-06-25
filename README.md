@@ -1,6 +1,15 @@
 # Algorithms In EcmaScript
 
-## 排序 (Sorting)
+> 打造全网最详细的算法讲解
+
+* 图解原理
+* 代码示例
+* 算法分析
+
+
+## 目录
+
+### 排序 (Sorting)
 
 | 名称                                 | En             |
 | ---------------------------------------- | ------------------ |
@@ -26,7 +35,7 @@
 | 计数排序 | Counting sort  | n + r    | n + r          | n + r        | n + r    | Yes      |
 | 基数排序 | Radix sort     | n * k    | n * k          | n * k        | n + k    | Yes      |
 
-## 数学 (Math)
+### 数学 (Math)
 
 | 名称                                         | En                  |
 | ------------------------------------------------ | ----------------------- |
@@ -37,7 +46,7 @@
 | [最小公倍数](./math/least-common-multiple)   | Least Common Multiple   |
 | [幂](./math/power)                           | Power                   |
 
-## 搜索 (Search)
+### 搜索 (Search)
 
 | 名称     | En               |
 | ------------ | -------------------- |
@@ -46,7 +55,7 @@
 | 二分查找 | Binary Search        |
 | 差值搜索 | Interpolation Search |
 
-## 字符串 (String)
+### 字符串 (String)
 
 | 名称               | En                      |
 | ---------------------- | --------------------------- |
@@ -58,3 +67,34 @@
 | Rabin Karp 算法    | Rabin Karp Algorithm        |
 | 最长公共子串       | Longest Common Substring    |
 | 正则表达式匹配     | Regular Expression Matching |
+
+### 集合 (Set)
+
+| 名称           | En                             |
+| -------------- | ------------------------------ |
+| 笛卡尔积       | Cartesian Product              |
+| 洗牌算法       | Fisher–Yates Shuffle           |
+| 幂集           | Power Set                      |
+| 排列           | Permutations                   |
+| 组合           | Combinations                   |
+| 最长公共子序列 | Longest Common Subsequence     |
+| 最长递增子序列 | Longest Increasing Subsequence |
+| 最短公共父序列 | Shortest Common Supersequence  |
+| 背包问题       | Knapsack Problem               |
+| 最大子数列问题 | Maximum Subarray               |
+| 组合求和       | Combination Sum                |
+
+
+
+## Contribution
+
+If you think that these can be improved in anyway, please do suggest.
+
+- Open pull request with improvements
+- Discuss ideas in issues
+
+
+
+## License
+
+[![License: CC BY-NC-ND 3.0](https://camo.githubusercontent.com/737aad0c1bf5098da05669813f8cd78959bf684cbee9c91d33fc1e01336a36a0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d434325323042592d2d4e432d2d4e44253230332e302d6c69676874677265792e737667)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
