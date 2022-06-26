@@ -1,5 +1,4 @@
-
-const primality = (n) => {
+const isPrime = (n) => {
   if (n % 1 !== 0 || n <= 1) return false;
   if (n <= 3) return true;
   if (n % 2 === 0) return false;
@@ -9,4 +8,4 @@ const primality = (n) => {
   return true;
 };
 
-module.exports = primality;
+module.exports = isPrime;

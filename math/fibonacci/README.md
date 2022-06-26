@@ -19,6 +19,8 @@ F(n) = F(n - 1) + F(n - 2), n >= 2
 
 计算第 n 斐波那契数，即给定 `n` ，计算 `F(n)` 。
 
+Example:
+
 ``` bash
 Input: n = 4
 Output: 3
@@ -27,12 +29,12 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
 ## Solution
 
-| 解法             | En                          |
-| ---------------- | --------------------------- |
-| 递归             | Recursion                   |
-| 自底向上进行迭代 | Iterative Top-Down Approach |
-| 数学公式         | Math                        |
-| 矩阵求幂         | Matrix Exponentiation       |
+| 编号 | 解法             | En                          |
+| ---- | ---------------- | --------------------------- |
+| 1    | 递归             | Recursion                   |
+| 2    | 自底向上进行迭代 | Iterative Top-Down Approach |
+| 3    | 数学公式         | Math                        |
+| 4    | 矩阵求幂         | Matrix Exponentiation       |
 
 ### 1. 递归 (Recursion)
 
@@ -225,4 +227,4 @@ const fibonacci = (n) => Math.round(
 
 #### 复杂度分析
 
-pow 函数的时空复杂度与 CPU 支持的指令集相关。
+Math.sqrt 函数的时空复杂度与 CPU 支持的指令集相关，本文不做详解。

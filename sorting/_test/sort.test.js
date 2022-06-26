@@ -1,10 +1,9 @@
-
-const bubbleSort = require('./bubble-sort');
-const selectionSort = require('./selection-sort');
-const insetSort = require('./insertion-sort');
-const quickSort = require('./quick-sort');
-const mergeSort = require('./merge-sort');
-const shellSort = require('./shell-sort');
+const bubbleSort = require('../bubble-sort');
+const selectionSort = require('../selection-sort');
+const insetSort = require('../insertion-sort');
+const quickSort = require('../quick-sort');
+const mergeSort = require('../merge-sort');
+const shellSort = require('../shell-sort');
 // const heapSort = require('./heap-sort');
 
 const sorters = {

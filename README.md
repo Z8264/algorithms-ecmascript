@@ -1,15 +1,14 @@
 # Algorithms In EcmaScript
 
-> 打造全网最详细的算法讲解
+> 我们的目标是打造全网知识讲解最全面、最详细、最易懂的算法教程，项目还在撰写中...
 
-* 图解原理
-* 代码示例
-* 算法分析
+## 介绍 Introduction
 
+![](./images/advantage.jpg)
 
-## 目录
+## 目录 Contents
 
-### 排序 (Sorting)
+### 排序 Sorting
 
 | 名称                                 | En             |
 | ---------------------------------------- | ------------------ |
@@ -23,30 +22,20 @@
 | 计数排序                             | Counting sort  |
 | 基数排序                             | Radix sort     |
 
-| 名称     | En             | 最优 | 平均       | 最坏     | 内存 | 稳定 |
-| ------------ | ------------------ | -------- | -------------- | ------------ | -------- | -------- |
-| 冒泡排序 | Bubble sort    | n        | n^2            | n^2          | 1        | Yes      |
-| 插入排序 | Insertion sort | n        | n^2            | n^2          | 1        | Yes      |
-| 选择排序 | Selection sort | n^2      | n^2            | n^2          | 1        | No       |
-| 归并排序 | Merge sort     | n log(n) | n log(n)       | n log(n)     | n        | Yes      |
-| 快速排序 | Quick sort     | n log(n) | n log(n)       | n^2          | log(n)   | No       |
-| 希尔排序 | Shell sort     | n log(n) | 取决于差距序列 | n (log(n))^2 | 1        | No       |
-| 堆排序   | Heap sort      | n log(n) | n log(n)       | n log(n)     | 1        | No       |
-| 计数排序 | Counting sort  | n + r    | n + r          | n + r        | n + r    | Yes      |
-| 基数排序 | Radix sort     | n * k    | n * k          | n * k        | n + k    | Yes      |
+* [排序复杂度对比](./sorting/README.md)
 
-### 数学 (Math)
+### 数学 Math
 
 | 名称                                         | En                  |
 | ------------------------------------------------ | ----------------------- |
 | [阶乘](./math/factorial)                     | Factorial               |
 | [斐波那契数](./math/fibonacci)               | Fibonacci               |
-| [素数](./math/primality)                     | Primality               |
 | [最大公约数](./math/greatest-common-divisor) | Greatest Common Divisor |
 | [最小公倍数](./math/least-common-multiple)   | Least Common Multiple   |
-| [幂](./math/power)                           | Power                   |
+| [素数](./math/prime) | Prime         |
+| 幂                       | Power                   |
 
-### 搜索 (Search)
+### 搜索 Search
 
 | 名称     | En               |
 | ------------ | -------------------- |
@@ -55,7 +44,7 @@
 | 二分查找 | Binary Search        |
 | 差值搜索 | Interpolation Search |
 
-### 字符串 (String)
+### 字符串 String
 
 | 名称               | En                      |
 | ---------------------- | --------------------------- |
@@ -68,7 +57,7 @@
 | 最长公共子串       | Longest Common Substring    |
 | 正则表达式匹配     | Regular Expression Matching |
 
-### 集合 (Set)
+### 集合 Set
 
 | 名称           | En                             |
 | -------------- | ------------------------------ |
@@ -84,16 +73,12 @@
 | 最大子数列问题 | Maximum Subarray               |
 | 组合求和       | Combination Sum                |
 
-
-
 ## Contribution
 
 If you think that these can be improved in anyway, please do suggest.
 
-- Open pull request with improvements
-- Discuss ideas in issues
-
-
+* Open pull request with improvements
+* Discuss ideas in issues
 
 ## License
 

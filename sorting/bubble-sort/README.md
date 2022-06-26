@@ -9,16 +9,16 @@
 
 ## 代码
 
-### Example
-
-升序排序
+Example：
 
 ``` bash
 Input: [2,3,1,4]
 Output: [1,2,3,4]
 ```
 
-### Solution
+Solution：
+
+> bubble-sort/index.js
 
  ``` js
 function sort(arr = []) {
@@ -37,7 +37,7 @@ function sort(arr = []) {
 }
  ```
 
-## 讲解
+## 复杂度分析
 
 ### 时间复杂度 (Time Complexity)
 

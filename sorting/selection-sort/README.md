@@ -8,16 +8,16 @@
 
 ## 代码
 
-### Example
-
-升序排序
+Example：
 
 ``` bash
 Input: [2,3,1,4]
 Output: [1,2,3,4]
 ```
 
-### Solution
+Solution：
+
+> selection-sort/index.js
 
 ``` js
 function sort(arr = []) {

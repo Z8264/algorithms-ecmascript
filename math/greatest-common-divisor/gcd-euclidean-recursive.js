@@ -1,4 +1,3 @@
-
 const mod = (max, min) => (min === 0 ? max : mod(min, max % min));
 
 const gcd = (a, b) => {
