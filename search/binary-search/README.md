@@ -1,8 +1,8 @@
-# 线性搜索 (Linear Search)
+# 二分查找 (Binary Search)
 
 
 
-线性搜索 (Linear Search)，按照顺序，逐个搜索。
+二分查找 (Binary Search)。
 
 
 
@@ -16,26 +16,21 @@
 
 
 
-问题描述：
 
-Example
-
-``` bash
-Input: arr = 5 , target = 
-Output: 120
-Explanation: 5! = 5 * 4 * 3 * 2 * 1 = 120
-```
-
-## 
 
 代码示例：
 
-> linear-search.js
+> binary-search.js
 
 ```js
-const search = (arr, target) => {
-  for (let i = 0; i < arr.length; i += 1) {
-    if (arr[i] === target) return i;
+const search = (arr = [], target = null) => {
+  let start = 0;
+  let end = arr.length - 1;
+  while (start <= end) {
+    const mid = Math.floor((end + start) / 2);
+    if (arr[mid] === target) return mid;
+    if (arr[mid] > target) end = mid - 1;
+    else start = mid + 1;
   }
   return -1;
 };
@@ -45,4 +40,4 @@ const search = (arr, target) => {
 
 | 时间复杂度 | 空间复杂度 |
 | ---------- | ---------- |
-| O(n)       | O(1)       |
+| O(logn)    | O(1)       |

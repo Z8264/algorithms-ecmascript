@@ -25,10 +25,14 @@ const befortSortArr = [...randomArr];
 
 Object.keys(sorters).forEach((key) => {
   test(`${key} test`, () => {
+    // 容错
+    expect(sorters[key]()).toEqual([]);
+    // 边界
     expect(sorters[key]([])).toEqual([]);
     expect(sorters[key]([1])).toEqual([1]);
     expect(sorters[key]([1, 2])).toEqual([1, 2]);
     expect(sorters[key]([2, 1])).toEqual([1, 2]);
+    // 正常
     expect(sorters[key]([3, 4, 2, 1, 0, 0, 4, 3, 4, 2])).toEqual([0, 0, 1, 2, 2, 3, 3, 4, 4, 4]);
     expect(sorters[key](sortedArr)).toEqual(sortedArr);
     expect(sorters[key](reverseArr)).toEqual(sortedArr);
