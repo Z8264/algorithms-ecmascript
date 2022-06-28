@@ -1,6 +1,6 @@
-# 二分查找 (Binary Search)
+# 跳跃搜索 (Jump Search)
 
-二分查找 (Binary Search)，查找中间位置，并与中间位置元素进行比较，确定是搜索前面的区块还是后面的区块，重复这个过程，直到找到目标元素。
+跳跃搜索 (Jump Search)，通过向前跳过固定个元素，找到目标值所在的区间，以便达到检查更少元素的目的。
 
 算法要求：
 
@@ -30,17 +30,23 @@ Output: -1
 
 代码示例：
 
-> binary-search.js
+> jump-search.js
 
 ```js
 const search = (arr = [], target = null) => {
+  const size = Math.floor(Math.sqrt(arr.length));
+
   let start = 0;
-  let end = arr.length - 1;
-  while (start <= end) {
-    const mid = Math.floor((end + start) / 2);
-    if (arr[mid] === target) return mid;
-    if (arr[mid] > target) end = mid - 1;
-    else start = mid + 1;
+  let end = size;
+
+  while (target > arr[Math.min(end, arr.length) - 1]) {
+    start = end;
+    end += size;
+    if (start > arr.length) return -1;
+  }
+
+  for (let i = 0; i < Math.min(end, arr.length); i += 1) {
+    if (arr[i] === target) return i;
   }
   return -1;
 };
@@ -50,4 +56,4 @@ const search = (arr = [], target = null) => {
 
 | 时间复杂度 | 空间复杂度 |
 | ---------- | ---------- |
-| O(log n)   | O(1)       |
+| O(√n) | O(1)       |

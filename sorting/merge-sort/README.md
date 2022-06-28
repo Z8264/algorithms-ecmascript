@@ -1,19 +1,12 @@
 # 归并排序 (Merge Sort)
 
-## 图解
 
-![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 
-## 代码
+归并排序 (Merge Sort)，每两个元素划分为一个子序列，并将两个元素比较后排序，形成有序序列，重复将两个有序序列合并，直到合并成一个有序序列。
 
-Example：
 
-``` bash
-Input: [2,3,1,4]
-Output: [1,2,3,4]
-```
 
-Solution：
+### 代码示例
 
 > merge-sort/index.js
 
@@ -37,8 +30,18 @@ function sort(arr = []) {
 }
  ```
 
-## 时间复杂度 (Time Complexity)
 
-## 空间复杂度 (Space Complexity)
 
-### 稳定性 (Stable)
+### 复杂的分析
+
+| 名称     | En         | 最优     | 平均     | 最坏     | 内存 | 稳定 |
+| -------- | ---------- | -------- | -------- | -------- | ---- | ---- |
+| 归并排序 | Merge sort | n log(n) | n log(n) | n log(n) | n    | Yes  |
+
+#### 
+
+#### 时间复杂度 (Time Complexity)
+
+#### 空间复杂度 (Space Complexity)
+
+#### 稳定性 (Stable)

@@ -2,20 +2,11 @@
 
 选择排序，每次遍历，从待排序的数据中选出最小或最大的元素，并从序列的起始位置依次存放，直到不存在待排序的数据。
 
-## 图解
 
-![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
 
-## 代码
 
-Example：
 
-``` bash
-Input: [2,3,1,4]
-Output: [1,2,3,4]
-```
-
-Solution：
+### 代码示例
 
 > selection-sort/index.js
 
@@ -33,7 +24,17 @@ function sort(arr = []) {
 }
 ```
 
-## 时间复杂度 (Time Complexity)
+
+
+### 复杂的分析
+
+| 名称     | En             | 最优 | 平均 | 最坏 | 内存 | 稳定 |
+| -------- | -------------- | ---- | ---- | ---- | ---- | ---- |
+| 选择排序 | Selection sort | n^2  | n^2  | n^2  | 1    | No   |
+
+
+
+#### 时间复杂度 (Time Complexity)
 
 使用 $C$ 表示比较次数，$M$ 表示移动次数
 
@@ -63,10 +64,11 @@ $$
 
 平均时间复杂度为 $O(n^2)$。
 
-## 空间复杂度 (Space Complexity)
+#### 空间复杂度 (Space Complexity)
 
 $O(1)$
 
-## 稳定性 (Stability)
+#### 稳定性 (Stability)
 
 举个例子，[3, 2, 3, 1, 9]，第一遍选择 3 和 1 交换，那么原序列中两个 3 的相对前后顺序就被破坏了，所以选择排序是一个不稳定的排序算法。
+

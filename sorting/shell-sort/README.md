@@ -1,21 +1,10 @@
-# 快速排序 (Shell Sort)
+# 希尔排序 (Shell Sort)
 
-Shellsort, also known as Shell sort or Shell's method, is an in-place comparison sort. It can be seen as either a generalization of sorting by exchange (bubble sort) or sorting by insertion (insertion sort). The method starts by sorting pairs of elements far apart from each other, then progressively reducing the gap between elements to be compared. Starting with far apart elements, it can move some out-of-place elements into position faster than a simple nearest neighbor exchange
+希尔排序 (Shell Sort)，。
 
-## 图解
 
-![Shell Sort](https://camo.githubusercontent.com/bbab9f6cefd49c82b7834f729532568f9464e4789972316d801400d25ffd79c2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f642f64382f536f7274696e675f7368656c6c736f72745f616e696d2e676966)
 
-## 代码
-
-Example：
-
-``` bash
-Input: [2,3,1,4]
-Output: [1,2,3,4]
-```
-
-Solution：
+### 代码示例
 
 > shell-sort/index.js
 
@@ -44,8 +33,16 @@ function sort(arr = []) {
 }
 ```
 
-## 时间复杂度 (Time Complexity)
+### 复杂的分析
 
-## 空间复杂度 (Space Complexity)
+| 名称     | En         | 最优     | 平均           | 最坏         | 内存 | 稳定 |
+| -------- | ---------- | -------- | -------------- | ------------ | ---- | ---- |
+| 希尔排序 | Shell sort | n log(n) | 取决于差距序列 | n (log(n))^2 | 1    |      |
 
-## 稳定性 (Stability)
+
+
+#### 时间复杂度 (Time Complexity)
+
+#### 空间复杂度 (Space Complexity)
+
+#### 稳定性 (Stable)

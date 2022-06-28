@@ -1,8 +1,11 @@
 import linear from '../linear-search';
+import jump from '../jump-search';
 import binary from '../binary-search';
 import interpolation from '../interpolation-search';
 
-const search = { linear, binary, interpolation };
+const search = {
+  linear, jump, binary, interpolation,
+};
 
 Object.keys(search).forEach((key) => {
   test(`${key} search`, () => {

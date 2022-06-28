@@ -1,6 +1,6 @@
 # 快速排序 (Quick Sort)
 
-快速排序是一种分而治之的算法。快速排序首先将一个大数组分成两个较小的子数组：比某个数小的元素和比某个数大的元素。然后快速排序可以递归地对子数组进行排序。
+快速排序 (Quick Sort)，是一种分而治之的算法。快速排序首先将一个大数组分成两个较小的子数组：比某个数小的元素和比某个数大的元素。然后快速排序可以递归地对子数组进行排序。
 
 步骤是：
 
@@ -10,20 +10,9 @@
 
 递归地将上述步骤应用于左边的数组和右边的数组。
 
-## 图解
 
-![Quick Sort](https://camo.githubusercontent.com/9d156a36ab19a3ae2dfbabc70daaaa074fddfaac233f6d0bfce45b8d07ad5289/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f362f36612f536f7274696e675f717569636b736f72745f616e696d2e676966)
 
-## 代码
-
-Example：
-
-``` bash
-Input: [2,3,1,4]
-Output: [1,2,3,4]
-```
-
-Solution：
+### 代码示例
 
 > quick-sort/index.js
 
@@ -55,8 +44,16 @@ function sort(arr = []) {
 }
 ```
 
-## 时间复杂度 (Time Complexity)
+### 复杂的分析
 
-## 空间复杂度 (Space Complexity)
+| 名称     | En         | 最优     | 平均     | 最坏 | 内存   | 稳定 |
+| -------- | ---------- | -------- | -------- | ---- | ------ | ---- |
+| 快速排序 | Quick sort | n log(n) | n log(n) | n^2  | log(n) | No   |
 
-## 稳定性 (Stability)
+#### 
+
+#### 时间复杂度 (Time Complexity)
+
+#### 空间复杂度 (Space Complexity)
+
+#### 稳定性 (Stable)

@@ -39,10 +39,10 @@
 
 | 名称     | En               |
 | ------------ | -------------------- |
-| 线性搜索 | Linear Search        |
-| 跳转搜索 | Jump Search          |
-| 二分查找 | Binary Search        |
-| 差值搜索 | Interpolation Search |
+| [线性搜索](./search/linear-search) | Linear Search        |
+| [跳转搜索](./search/jump-search) | Jump Search          |
+| [二分查找](./search/binary-search) | Binary Search        |
+| [差值搜索](./interpolation-search) | Interpolation Search |
 
 ### 字符串 String
 
@@ -83,3 +83,18 @@ If you think that these can be improved in anyway, please do suggest.
 ## License
 
 [![License: CC BY-NC-ND 3.0](https://camo.githubusercontent.com/737aad0c1bf5098da05669813f8cd78959bf684cbee9c91d33fc1e01336a36a0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d434325323042592d2d4e432d2d4e44253230332e302d6c69676874677265792e737667)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+
+
+
+
+
+
+
+
+
+* 3+ 年大厂前端技术团队管理经验。
+* 优秀的技术落地能力，曾连续三年绩效 375。
+* 在电商、医疗业务领域有深度从业经验，曾建设自动化搭建技术架构，实现企业运营提效。
+* 前端技术扎实，擅长中后台、微前端、低代码等技术体系架构。
+* 有 3 年服务端开发经验，全栈基础知识体系全面。
+

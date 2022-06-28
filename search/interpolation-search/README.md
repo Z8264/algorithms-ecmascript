@@ -1,34 +1,32 @@
 # 插值搜索 (Interpolation Search)
 
-
-
 插值搜索 (Interpolation Search)，是二分查找的优化方案，通过判定大概位于序列的位置比例，来选取中间值位置。
 
+算法要求：
 
+1. 顺序存储结构。
 
+2. 关键字大小有序排列。
 
+## Problem
 
-## 图解原理
+在数组 `arr` 中查找目标值 `target`，并返回位置索引。
 
-
-
-
-
-## 代码示例
-
-
-
-问题描述：
-
-Example
+Example:
 
 ``` bash
-Input: arr = 5 , target = 
-Output: 120
-Explanation: 5! = 5 * 4 * 3 * 2 * 1 = 120
+Input: arr = [1,2,3,4] , target = 3
+Output: 2
 ```
 
-## 
+Example:
+
+``` bash
+Input: arr = [1,2,3,4] , target = 100
+Output: -1
+```
+
+## Solution
 
 代码示例：
 
