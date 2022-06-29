@@ -5,4 +5,4 @@ const fibonacci = (n) => Math.round(
     / Math.sqrt(5),
 );
 
-module.exports = fibonacci;
+export default fibonacci;

@@ -1,5 +1,5 @@
-const recursive = require('../factorial-recursive');
-const iterative = require('../factorial-iterative');
+import recursive from '../factorial-recursive';
+import iterative from '../factorial-iterative';
 
 describe('factorial recursive', () => {
   it('factorial recursive', () => {

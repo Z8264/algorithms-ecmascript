@@ -9,4 +9,4 @@ const gcd = (a, b) => {
   return max;
 };
 
-module.exports = gcd;
+export default gcd;

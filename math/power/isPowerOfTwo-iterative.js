@@ -6,4 +6,4 @@ const isPowerOfTwo = (n) => {
   return n === 1;
 };
 
-module.exports = isPowerOfTwo;
+export default isPowerOfTwo;

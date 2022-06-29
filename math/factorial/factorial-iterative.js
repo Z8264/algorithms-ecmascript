@@ -5,4 +5,4 @@ const factorial = (n) => {
   }
   return res;
 };
-module.exports = factorial;
+export default factorial;

@@ -18,4 +18,4 @@ function sort(arr = []) {
 
   return a.concat(left, right);
 }
-module.exports = sort;
+export default sort;

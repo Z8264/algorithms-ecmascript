@@ -1,4 +1,4 @@
-const isPrime = require('../is-prime');
+import isPrime from '../is-prime';
 
 test('isPrime', () => {
   expect(isPrime(1)).toBe(false);

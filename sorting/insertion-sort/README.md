@@ -2,7 +2,9 @@
 
 插入排序 (Insertion Sort)，依次遍历所有元素，并将元素按升序或降序插入前面已经排序的元素中。
 
+### 图解流程
 
+![InsertionSort](../../_imgs/InsertionSort.png)
 
 ### 代码示例
 

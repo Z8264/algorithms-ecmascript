@@ -7,4 +7,4 @@ const gcd = (a, b) => {
   return mod(max, min);
 };
 
-module.exports = gcd;
+export default gcd;

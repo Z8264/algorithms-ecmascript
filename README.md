@@ -4,7 +4,7 @@
 
 ## 介绍 Introduction
 
-![](./images/advantage.jpg)
+![](./_imgs/advantage.jpg)
 
 ## 目录 Contents
 
@@ -73,6 +73,36 @@
 | 最大子数列问题 | Maximum Subarray               |
 | 组合求和       | Combination Sum                |
 
+
+
+### 链表 Linked List
+
+1. **Middle** - The middle node
+2. **Swap** - Swap every two adjacent nodes
+3. **Cycle** - The node where the cycle begins
+4. **Remove** - Remove the nth node from the end of the list
+5. **Reverse** - Reverse a list from position m to n
+6. **Sort** - Sort in ascending order
+7. **Partition** - All nodes less than x come before nodes greater than or equal to x
+8. **Intersection** - The intersection of two linked lists begins
+9. **Palindrome** - Palindrome judgment
+10. **Copy** - Each node contains an additional random pointer
+
+### 二叉树 Binary Tree
+
+1. **Traversal** - Inorder & Preorder & Postorder & LevelOrder
+2. **Depth** - Maximum Depth & Minimum Depth
+3. **Construct** - Construct Binary Tree from Traversal
+4. **View** - Right Side View & Left Side View
+5. **Invert** - Invert left and right
+6. **Same** - Same judgment
+7. **Symmetric** - Symmetric judgment
+8. **Binary Search Tree** - BST judgment
+9. **Height Balanced** - Height Balanced judgment
+10. **Path Sum** - All root-to-leaf paths where each path's sum equals targetSum
+
+
+
 ## Contribution
 
 If you think that these can be improved in anyway, please do suggest.
@@ -87,14 +117,4 @@ If you think that these can be improved in anyway, please do suggest.
 
 
 
-
-
-
-
-
-* 3+ 年大厂前端技术团队管理经验。
-* 优秀的技术落地能力，曾连续三年绩效 375。
-* 在电商、医疗业务领域有深度从业经验，曾建设自动化搭建技术架构，实现企业运营提效。
-* 前端技术扎实，擅长中后台、微前端、低代码等技术体系架构。
-* 有 3 年服务端开发经验，全栈基础知识体系全面。
 

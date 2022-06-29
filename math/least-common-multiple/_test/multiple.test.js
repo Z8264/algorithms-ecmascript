@@ -1,4 +1,4 @@
-const lcm = require('../lcm');
+import lcm from '../lcm';
 
 test('least common lcm', () => {
   expect(lcm(0, 0)).toBe(0);

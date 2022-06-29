@@ -1,4 +1,4 @@
-const isPowerOfTwo = require('../isPowerOfTwo-base-conversion');
+import isPowerOfTwo from '../isPowerOfTwo-base-conversion';
 
 test('isPowerOfTwo', () => {
   expect(isPowerOfTwo(-1)).toBe(false);

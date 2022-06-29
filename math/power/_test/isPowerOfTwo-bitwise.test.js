@@ -1,4 +1,4 @@
-const isPowerOfTwo = require('../isPowerOfTwo-bitwise');
+import isPowerOfTwo from '../isPowerOfTwo-bitwise';
 
 test('isPowerOfTwo', () => {
   expect(isPowerOfTwo(-1)).toBe(false);

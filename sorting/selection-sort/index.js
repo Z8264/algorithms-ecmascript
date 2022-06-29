@@ -12,4 +12,4 @@ function sort(arr = []) {
   }
   return a;
 }
-module.exports = sort;
+export default sort;

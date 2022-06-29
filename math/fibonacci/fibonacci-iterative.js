@@ -5,4 +5,4 @@ const fibonacci = (n) => {
   }
   return n < 2 ? n : b;
 };
-module.exports = fibonacci;
+export default fibonacci;

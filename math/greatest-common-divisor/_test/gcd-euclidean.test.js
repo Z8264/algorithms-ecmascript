@@ -1,5 +1,5 @@
-const iterative = require('../gcd-euclidean-iterative');
-const recursive = require('../gcd-euclidean-recursive');
+import iterative from '../gcd-euclidean-iterative';
+import recursive from '../gcd-euclidean-recursive';
 
 const euclidean = { iterative, recursive };
 

@@ -27,4 +27,4 @@ function sort(arr = []) {
   return sort(left).concat(center, sort(right));
 }
 
-module.exports = sort;
+export default sort;

@@ -1,7 +1,7 @@
-const recursive = require('../fibonacci-recursive');
-const iterative = require('../fibonacci-iterative');
-const matrix = require('../fibonacci-matrix');
-const math = require('../fibonacci-math');
+import recursive from '../fibonacci-recursive';
+import iterative from '../fibonacci-iterative';
+import matrix from '../fibonacci-matrix';
+import math from '../fibonacci-math';
 
 test('fibonacci: recursive', () => {
   expect(recursive(0)).toBe(0);

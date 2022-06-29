@@ -13,4 +13,4 @@ const countPrimes = (n) => {
   }
   return count;
 };
-module.exports = countPrimes;
+export default countPrimes;

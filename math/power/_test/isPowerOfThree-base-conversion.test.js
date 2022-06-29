@@ -1,4 +1,4 @@
-const isPowerOfThree = require('../isPowerOfThree-base-conversion');
+import isPowerOfThree from '../isPowerOfThree-base-conversion';
 
 test('isPowerOfThree', () => {
   expect(isPowerOfThree(-1)).toBe(false);

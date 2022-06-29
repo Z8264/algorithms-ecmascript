@@ -1,4 +1,4 @@
-const isPowerOfThree = require('../isPowerOfThree-iterative');
+import isPowerOfThree from '../isPowerOfThree-iterative';
 
 test('isPowerOfThree', () => {
   expect(isPowerOfThree(-1)).toBe(false);

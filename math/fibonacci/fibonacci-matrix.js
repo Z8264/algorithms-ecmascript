@@ -28,4 +28,4 @@ const fibonacci = (n) => (n <= 0
   )[0][1]);
 
 
-module.exports = fibonacci;
+export default fibonacci;

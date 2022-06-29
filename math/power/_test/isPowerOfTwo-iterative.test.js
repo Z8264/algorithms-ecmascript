@@ -1,4 +1,4 @@
-const isPowerOfTwo = require('../isPowerOfTwo-iterative');
+import isPowerOfTwo from '../isPowerOfTwo-iterative';
 
 test('isPowerOfTwo', () => {
   expect(isPowerOfTwo(-1)).toBe(false);

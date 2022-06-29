@@ -7,6 +7,10 @@
 
 
 
+### 图解流程
+
+![BubbleSort](../../_imgs/BubbleSort.png)
+
 ### 代码示例
 
 > bubble-sort/index.js

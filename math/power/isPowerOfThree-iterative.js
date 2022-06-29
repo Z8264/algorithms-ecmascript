@@ -6,4 +6,4 @@ const isPowerOfThree = (n) => {
   return n === 1;
 };
 
-module.exports = isPowerOfThree;
+export default isPowerOfThree;
