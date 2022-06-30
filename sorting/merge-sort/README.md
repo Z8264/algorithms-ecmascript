@@ -1,12 +1,12 @@
 # 归并排序 (Merge Sort)
 
-
-
 归并排序 (Merge Sort)，每两个元素划分为一个子序列，并将两个元素比较后排序，形成有序序列，重复将两个有序序列合并，直到合并成一个有序序列。
 
+## 1. 图解流程
 
+<img src="../../_imgs/MergeSort.png" width="750"/>
 
-### 代码示例
+### 2. 代码示例
 
 > merge-sort/index.js
 
@@ -32,16 +32,15 @@ function sort(arr = []) {
 
 
 
-### 复杂的分析
+### 3. 复杂的分析
 
 | 名称     | En         | 最优     | 平均     | 最坏     | 内存 | 稳定 |
 | -------- | ---------- | -------- | -------- | -------- | ---- | ---- |
 | 归并排序 | Merge sort | n log(n) | n log(n) | n log(n) | n    | Yes  |
 
-#### 
+#### 3.1 时间复杂度 (Time Complexity)
 
-#### 时间复杂度 (Time Complexity)
+#### 3.2 空间复杂度 (Space Complexity)
 
-#### 空间复杂度 (Space Complexity)
+#### 3.3 稳定性 (Stable)
 
-#### 稳定性 (Stable)
