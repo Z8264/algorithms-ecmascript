@@ -6,6 +6,10 @@
 >
 > 项目编写中。
 
+
+
+
+
 ## 介绍 Introduction
 
 ![](./_imgs/advantage.jpg)
@@ -24,6 +28,8 @@
 
 ### 排序 Sorting  80%
 
+主编：Z8264
+
 | 序号 | **名称**                             | **En**         | 进度 |
 | ---- | ------------------------------------ | -------------- | ---- |
 | 1    | [排序简介](./sorting/README.md)      | Sorting        | 100% |
@@ -37,18 +43,24 @@
 | 9    | 计数排序                             | Counting sort  |      |
 | 10   | 基数排序                             | Radix sort     |      |
 
-### 数学 Math
+### 数学 Math 60%
+
+主编：Z8264
 
 | 序号 | 名称                                         | En                      | 进度 |
 | ---- | -------------------------------------------- | ----------------------- | ---- |
-| 1    | [阶乘](./math/factorial)                     | Factorial               | 90%  |
-| 2    | [斐波那契数](./math/fibonacci)               | Fibonacci               | 90%  |
-| 3    | [最大公约数](./math/greatest-common-divisor) | Greatest Common Divisor | 90%  |
-| 4    | [最小公倍数](./math/least-common-multiple)   | Least Common Multiple   | 90%  |
-| 5    | [素数](./math/prime)                         | Prime                   | 90%  |
-| 6    | 幂                                           | Power                   | 50%  |
+| 1    | [阶乘](./math/factorial)                     | Factorial               | 60%  |
+| 2    | [斐波那契数](./math/fibonacci)               | Fibonacci               | 60%  |
+| 3    | [最大公约数](./math/greatest-common-divisor) | Greatest Common Divisor | 60%  |
+| 4    | [最小公倍数](./math/least-common-multiple)   | Least Common Multiple   | 60%  |
+| 5    | [素数检测](./math/primality-test)            | Primality Test          | 60%  |
+| 6    | [素数筛查](./math/primes-count)              | Primes Count            | 60%  |
+| 7    | [2 的幂](./math/power-of-two)                | Power Of Two            | 60%  |
+| 8    | [3 的幂](./math/power-of-three)              | Power Of Three          | 60%  |
 
-### 搜索 Search
+### 搜索 Search 50%
+
+主编：Z8264
 
 | 序号 | 名称                               | En                   | 进度 |
 | ---- | ---------------------------------- | -------------------- | ---- |
@@ -57,7 +69,7 @@
 | 3    | [二分查找](./search/binary-search) | Binary Search        | 50%  |
 | 4    | [差值搜索](./interpolation-search) | Interpolation Search | 50%  |
 
-### 字符串 String
+### 字符串 String 0%
 
 | 序号 | 名称               | En                          | 进度 |
 | ---- | ------------------ | --------------------------- | ---- |
@@ -70,7 +82,7 @@
 | 7    | 最长公共子串       | Longest Common Substring    |      |
 | 8    | 正则表达式匹配     | Regular Expression Matching |      |
 
-### 集合 Set
+### 集合 Set 0%
 
 | 序号 | **名称**       | **En**                         | 进度 |
 | ---- | -------------- | ------------------------------ | ---- |
@@ -86,7 +98,9 @@
 | 10   | 最大子数列问题 | Maximum Subarray               |      |
 | 11   | 组合求和       | Combination Sum                |      |
 
-### 链表 Linked List
+### 链表 Linked List 70%
+
+主编：Z8264
 
 | 序号 | 名称     | En           | Desciption                                                   | 进度 |
 | ---- | -------- | ------------ | ------------------------------------------------------------ | ---- |
@@ -102,7 +116,9 @@
 | 10   | 回文     | Palindrome   | Palindrome judgment                                          | 70%  |
 | 11   | 复制     | Copy         | Each node contains an additional random pointer              | 70%  |
 
-### 二叉树 Binary Tree
+### 二叉树 Binary Tree 70%
+
+主编：Z8264
 
 | 序号 | 名称       | En                 | Description                                                  | 进度 |
 | ---- | ---------- | ------------------ | ------------------------------------------------------------ | ---- |

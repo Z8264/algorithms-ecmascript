@@ -37,6 +37,8 @@ Output: 18
 
 ## Solution
 
+### 1. 公式推导 (Formula Derivation)
+
 #### 代码示例
 
 > lcm.js

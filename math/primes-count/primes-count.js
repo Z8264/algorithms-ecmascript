@@ -1,6 +1,6 @@
-const countPrimes = (n) => {
+const primes = (n) => {
   let count = 0;
-  const signs = new Uint8Array(n);
+  const signs = [];
 
   for (let i = 2; i < n; i += 1) {
     if (!signs[i - 1]) {
@@ -13,4 +13,4 @@ const countPrimes = (n) => {
   }
   return count;
 };
-export default countPrimes;
+export default primes;
