@@ -1,15 +1,10 @@
 # Algorithms In EcmaScript
 
-
-
-
 ## 介绍 Introduction
 
 ![](./_imgs/advantage.jpg)
 
 ## 目录 Contents
-
-
 
 ### 经验方法 Methodology  0%
 
@@ -23,8 +18,8 @@
 | 6    | 方法：如何高效、牢固的掌握算法？ | How      |      |
 | 7    | 付出：你需要付出什么？           | How Much |      |
 
-
 ### 排序 Sorting  80%
+
 > <img src="./_imgs/report/sorting.jpg" width="700"/>
 
 | 序号 | 名称                                 | En             | 进度 |
@@ -40,20 +35,20 @@
 | 9    | 基数排序                             | Radix sort     |      |
 | 10   | [排序总结](./sorting/README.md)      | Sorting        | 100% |
 
-### 数学 Math 60%
+### 数学 Math 80%
 
 > <img src="./_imgs/report/math.jpg" width="700" />
 
 | 序号 | 名称                                         | En                      | 进度 |
 | ---- | -------------------------------------------- | ----------------------- | ---- |
-| 1    | [阶乘](./math/factorial)                     | Factorial               | 60%  |
-| 2    | [斐波那契数](./math/fibonacci)               | Fibonacci               | 60%  |
-| 3    | [最大公约数](./math/greatest-common-divisor) | Greatest Common Divisor | 60%  |
-| 4    | [最小公倍数](./math/least-common-multiple)   | Least Common Multiple   | 60%  |
-| 5    | [素数检测](./math/primality-test)            | Primality Test          | 60%  |
-| 6    | [素数筛查](./math/primes-count)              | Primes Count            | 60%  |
-| 7    | [2 的幂](./math/power-of-two)                | Power Of Two            | 60%  |
-| 8    | [3 的幂](./math/power-of-three)              | Power Of Three          | 60%  |
+| 1    | [阶乘](./math/factorial)                     | Factorial               | 80%  |
+| 2    | [斐波那契数](./math/fibonacci)               | Fibonacci               | 80%  |
+| 3    | [最大公约数](./math/greatest-common-divisor) | Greatest Common Divisor | 80%  |
+| 4    | [最小公倍数](./math/least-common-multiple)   | Least Common Multiple   | 80%  |
+| 5    | [素数检测](./math/primality-test)            | Primality Test          | 80%  |
+| 6    | [素数筛查](./math/primes-count)              | Primes Count            | 80%  |
+| 7    | [2 的幂](./math/power-of-two)                | Power Of Two            | 80%  |
+| 8    | [3 的幂](./math/power-of-three)              | Power Of Three          | 80%  |
 
 ### 搜索 Search 50%
 
@@ -95,29 +90,30 @@
 | 10   | 最大子数列问题 | Maximum Subarray               |      |
 | 11   | 组合求和       | Combination Sum                |      |
 
-### 链表 Linked List 70%
+### 链表 Linked List 80%
 
 > <img src="./_imgs/report/linked-list.jpg" width="700" />
 
-| 序号 | 名称                         | En           | Desciption                                                   | 进度 |
-| ---- | ---------------------------- | ------------ | ------------------------------------------------------------ | ---- |
-| 1    | 链表基础                     | LinkedList   | Basic Knowledge                                              | 0    |
-| 2    | [中间](./linked-list/middle) | Middle       | The Middle Node of the Linked List                           | 100% |
-| 3    | [交换](./linked-list/swap)   | Swap         | Swap every two adjacent nodes                                | 100% |
-| 4    | [环](./linked-list/cycle)    | Cycle        | The node where the cycle begins                              | 100% |
-| 5    | 移除                         | Remove       | Remove the nth node from the end of the list                 | 20%  |
-| 6    | 翻转                         | Reverse      | Reverse a list from position m to n                          | 20%  |
-| 7    | 排序                         | Sort         | Sort in ascending order                                      | 20%  |
-| 8    | 分割                         | Partition    | All nodes less than x come before nodes greater than or equal to x | 20%  |
-| 9    | 交点                         | Intersection | AThe intersection of two linked lists begins                 | 20%  |
-| 10   | 回文                         | Palindrome   | Palindrome judgment                                          | 20%  |
-| 11   | 复制                         | Copy         | Each node contains an additional random pointer              | 20%  |
+| 序号 | 名称                                   | En           | Desciption                                                   | 进度 |
+| ---- | -------------------------------------- | ------------ | ------------------------------------------------------------ | ---- |
+| 1    | 链表基础                               | Linked List  | Basic Knowledge                                              | 0    |
+| 2    | [中间结点](./linked-list/middle)       | Middle       | The Middle Node of the Linked List                           | 100% |
+| 3    | [交换](./linked-list/swap)             | Swap         | Swap every two adjacent nodes                                | 100% |
+| 4    | [环检测](./linked-list/cycle-test)     | Cycle Test   | Determine if the linked list has a cycle                     | 100% |
+| 5    | [环起点](./linked-list/cycle-begins)   | Cycle Begins | The node where the cycle begins                              | 100% |
+| 6    | [移除](./linked-list/remove)          | Remove       | Remove the nth node from the end of the list                 | 100% |
+| 7    | [翻转](./linked-list/reverse)          | Reverse      | Reverse a list                                               | 100% |
+| 8    | [翻转部分](./linked-list/reverse-part) | Reverse Part | Reverse a list from position m to n                          | 100% |
+| 9    | 排序                                   | Sort         | Sort in ascending order                                      | 0    |
+| 10   | 分割                                   | Partition    | All nodes less than x come before nodes greater than or equal to x | 0    |
+| 11   | 交点                                   | Intersection | The intersection of two linked lists begins                  | 0    |
+| 11   | 复制                                   | Copy         | Each node contains an additional random pointer              | 0    |
 
 ### 二叉树 Binary Tree 20%
 
 | 序号 | 名称       | En                 | Description                                                  | 进度 |
 | ---- | ---------- | ------------------ | ------------------------------------------------------------ | ---- |
-| 1    | 二叉树基础 |                    |                                                              | 0    |
+| 1    | 二叉树基础 | Binary Tree        | Basic Knowledge                                              | 0    |
 | 2    | 遍历       | Traversal          | Inorder & Preorder & Postorder & LevelOrder                  | 20%  |
 | 3    | 深度       | Depth              | Maximum Depth & Minimum Depth                                | 20%  |
 | 4    | 构造       | Construct          | Construct Binary Tree from Traversal                         | 20%  |
@@ -140,7 +136,7 @@
 7. 判圈算法 - 对于有向图和无向图 (基于 DFS 和不相交集的版本)
 8. 普林演算法 - 寻找加权无向图的最小生成树 (MST)
 9. 拓扑排序 - DFS 方法
-10. 关节点 - Tarjan 算法 (基于 DFS)
+10. 关结点 - Tarjan 算法 (基于 DFS)
 11. 桥 - 基于 DFS 的算法
 12. 欧拉回径与一笔画问题 - Fleury 的算法 - 一次访问每个边
 13. 哈密顿图 - 恰好访问每个顶点一次
@@ -157,8 +153,3 @@ If you think that these can be improved in anyway, please do suggest.
 ## License
 
 [![License: CC BY-NC-ND 3.0](https://camo.githubusercontent.com/737aad0c1bf5098da05669813f8cd78959bf684cbee9c91d33fc1e01336a36a0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d434325323042592d2d4e432d2d4e44253230332e302d6c69676874677265792e737667)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
-
-
-
-
-

@@ -10,12 +10,12 @@ const construct = (inorder, postorder) => {
   let post_idx;
   const idx_map = new Map();
   const helper = (in_left, in_right) => {
-    // 如果这里没有节点构造二叉树了，就结束
+    // 如果这里没有结点构造二叉树了，就结束
     if (in_left > in_right) {
       return null;
     }
 
-    // 选择 post_idx 位置的元素作为当前子树根节点
+    // 选择 post_idx 位置的元素作为当前子树根结点
     const root_val = postorder[post_idx];
     const root = new TreeNode(root_val);
 

@@ -1,8 +1,4 @@
-# 中间 Middle
-
-链表的中间节点。
-
-> The Middle Node of the Linked List。
+# 中间结点 Middle
 
 ## Problem
 
@@ -55,7 +51,7 @@ const middle = (head) => {
 | ---------- | ---------- |
 | O(n)       | O(n)       |
 
-- 时间复杂度：O(n)，n 为给定链表中的结点数目。
+- 时间复杂度：O(n)，n 为链表的长度。
 - 空间复杂度：O(n)，即数组的空间。
 
 ### 2. 快慢指针法 (Fast and Slow Pointer)
@@ -81,5 +77,5 @@ const middle = (head) => {
 | ---------- | ---------- |
 | O(n)       | O(1)       |
 
-- 时间复杂度：O(n)， n 为是给定链表的结点数目。
+- 时间复杂度：O(n)，n 为链表的长度。
 - 空间复杂度：O(1)，只需要常数空间存放 `slow` 和 `fast` 两个指针。

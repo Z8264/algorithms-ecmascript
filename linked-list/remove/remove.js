@@ -1,4 +1,4 @@
-const removeNthFromEnd = (head, n) => {
+const remove = (head, n) => {
   let [slow, fast] = [head, head];
   let i = 0;
   while (fast && i < n) {
@@ -18,4 +18,4 @@ const removeNthFromEnd = (head, n) => {
   return head;
 };
 
-export default removeNthFromEnd;
+export default remove;

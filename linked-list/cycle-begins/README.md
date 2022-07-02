@@ -1,37 +1,31 @@
-# 环 Cycle
-
-链表中环的开始节点。
-
->  The node where the cycle begins。
+# 环起点 Cycle Begins
 
 ## Problem
 
-给定一个链表的头节点  `head` ，返回链表开始入环的第一个节点。 如果链表无环，则返回 `null`。
+返回链表开始入环的第一个结点。 如果链表无环，则返回 `null`。
 
-> Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+> Return the node where the cycle begins. If there is no cycle, return null.
 
 Example: Tail connects to the second node.
 
-```
+``` bash
 Input: head = 1->2->3->4, [4->2]
 Output: head = 2->3->4
 ```
 
 Example: No cycle
 
-```
+``` bash
 Input: head = 1->2
 Output: null
 ```
 
 Example: No cycle
 
-```
+``` bash
 Input: head = 1
 Output: null
 ```
-
-
 
 ## Solution
 
@@ -39,7 +33,6 @@ Output: null
 | ---- | ---------- | --------------------- |
 | 1    | 哈希表 | HashSet |
 | 2    | 快慢指针法 | Fast and Slow Pointer |
-
 
 ### 1. 哈希表 (HashSet)
 
@@ -65,8 +58,8 @@ const cycle = (head) => {
 | ---------- | ---------- |
 | O(n)       | O(n)       |
 
-- 时间复杂度：O(n)，n 为链表中节点的数目，需要访问链表中的每一个节点。
-- 空间复杂度：O(n)，n 为链表中节点的数目，需要将链表中的每个节点都保存在哈希表当中。
+- 时间复杂度：O(n)，n 为链表的长度。需要访问链表中的每一个结点。
+- 空间复杂度：O(n)，n 为链表的长度。需要将链表中的每个结点都保存在哈希表当中。
 
 ### 2. 快慢指针法 (Fast and Slow Pointer)
 
@@ -104,6 +97,6 @@ const cycle = (head) => {
 
 复杂度分析
 
-* 时间复杂度：O(n)，n 为链表中节点的数目。
+- 时间复杂度：O(n)，n 为链表的长度。
 
-* 空间复杂度：O(1)。只需要常数空间存放 `slow` 、 `fast`、`current` 三个指针。
+- 空间复杂度：O(1)。只需要常数空间存放 `slow` 、 `fast`、`current` 三个指针。

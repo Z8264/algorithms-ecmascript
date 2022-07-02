@@ -12,6 +12,16 @@ test('reverse', () => {
 });
 
 /**
+ * Input: head = 1, m = 1, n = 1
+ * Output: head = 1
+ */
+test('reverse', () => {
+  const list = createFromArray([1]);
+  const newList = reverse(list, 1, 1);
+  expect(toString(newList)).toBe('1');
+});
+
+/**
  * Input: head = null
  * Output: head = null
  */
