@@ -1,4 +1,4 @@
-export class ListNode {
+class ListNode {
   constructor(val, next = null) {
     this.val = val;
     this.next = next;
@@ -13,8 +13,7 @@ const swap = (head) => {
     const node1 = temp.next;
     const node2 = temp.next.next;
     temp.next = node2;
-    node1.next = node2.next;
-    node2.next = node1;
+    [node1.next, node2.next] = [node2.next, node1];
     temp = node1;
   }
   return dummyHead.next;

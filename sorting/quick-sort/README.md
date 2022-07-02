@@ -43,10 +43,3 @@ function sort(arr = []) {
 | 名称     | En         | 最优     | 平均     | 最坏 | 内存   | 稳定 |
 | -------- | ---------- | -------- | -------- | ---- | ------ | ---- |
 | 快速排序 | Quick sort | n log(n) | n log(n) | n^2  | log(n) | No   |
-
-#### 3.1 时间复杂度 (Time Complexity)
-
-#### 3.2 空间复杂度 (Space Complexity)
-
-#### 3.3 稳定性 (Stable)
-

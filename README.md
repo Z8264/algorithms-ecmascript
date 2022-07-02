@@ -1,12 +1,5 @@
 # Algorithms In EcmaScript
 
-> 我们的目标是打造全网知识讲解最全面、最详细、最易懂的算法教程。
->
-> 并分享更多学习方法论，牢固掌握，避免遗忘，内化能力。
->
-> 项目编写中。
-
-
 
 
 
@@ -20,32 +13,36 @@
 
 ### 经验方法 Methodology  0%
 
-* 为什么要学习算法？
-* 学习能力方法论？
-* 编程能力方法论？
-
+| 序号 | **名称**                         | **En**   | 进度 |
+| ---- | -------------------------------- | -------- | ---- |
+| 1    | 用户：谁适合使用本教程？         | Who      |      |
+| 2    | 目的：为什么要学习算法？         | Why      |      |
+| 3    | 内容：算法基础需要掌握那些知识？ | What     |      |
+| 4    | 环境：你需要准备什么样的环境？   | Where    |      |
+| 5    | 计划：如何制定可持续的学习计划？ | When     |      |
+| 6    | 方法：如何高效、牢固的掌握算法？ | How      |      |
+| 7    | 付出：你需要付出什么？           | How Much |      |
 
 
 ### 排序 Sorting  80%
+> <img src="./_imgs/report/sorting.jpg" width="700"/>
 
-主编：Z8264
-
-| 序号 | **名称**                             | **En**         | 进度 |
+| 序号 | 名称                                 | En             | 进度 |
 | ---- | ------------------------------------ | -------------- | ---- |
-| 1    | [排序简介](./sorting/README.md)      | Sorting        | 100% |
-| 2    | [冒泡排序](./sorting/bubble-sort)    | Bubble sort    | 100% |
-| 3    | [插入排序](./sorting/insertion-sort) | Insertion sort | 100% |
-| 4    | [选择排序](./sorting/selection-sort) | Selection sort | 100% |
-| 5    | [归并排序](./sorting/merge-sort)     | Merge sort     | 100% |
-| 6    | [快速排序](./sorting/quick-sort)     | Quick sort     | 100% |
-| 7    | [希尔排序](./sorting/shell-sort)     | Shell sort     | 100% |
-| 8    | 堆排序                               | Heap sort      |      |
-| 9    | 计数排序                             | Counting sort  |      |
-| 10   | 基数排序                             | Radix sort     |      |
+| 1    | [冒泡排序](./sorting/bubble-sort)    | Bubble sort    | 100% |
+| 2    | [插入排序](./sorting/insertion-sort) | Insertion sort | 100% |
+| 3    | [选择排序](./sorting/selection-sort) | Selection sort | 100% |
+| 4    | [归并排序](./sorting/merge-sort)     | Merge sort     | 100% |
+| 5    | [快速排序](./sorting/quick-sort)     | Quick sort     | 100% |
+| 6    | [希尔排序](./sorting/shell-sort)     | Shell sort     | 100% |
+| 7    | 堆排序                               | Heap sort      |      |
+| 8    | 计数排序                             | Counting sort  |      |
+| 9    | 基数排序                             | Radix sort     |      |
+| 10   | [排序总结](./sorting/README.md)      | Sorting        | 100% |
 
 ### 数学 Math 60%
 
-主编：Z8264
+> <img src="./_imgs/report/math.jpg" width="700" />
 
 | 序号 | 名称                                         | En                      | 进度 |
 | ---- | -------------------------------------------- | ----------------------- | ---- |
@@ -60,7 +57,7 @@
 
 ### 搜索 Search 50%
 
-主编：Z8264
+> <img src="./_imgs/report/search.jpg" width="700" />
 
 | 序号 | 名称                               | En                   | 进度 |
 | ---- | ---------------------------------- | -------------------- | ---- |
@@ -100,41 +97,39 @@
 
 ### 链表 Linked List 70%
 
-主编：Z8264
+> <img src="./_imgs/report/linked-list.jpg" width="700" />
 
-| 序号 | 名称     | En           | Desciption                                                   | 进度 |
-| ---- | -------- | ------------ | ------------------------------------------------------------ | ---- |
-| 1    | 链表基础 | LinkedList   |                                                              | 0    |
-| 2    | 中间值   | Middle       | The middle node                                              | 70%  |
-| 3    | 交换     | Swap         | Swap every two adjacent nodes                                | 70%  |
-| 4    | 环       | Cycle        | The node where the cycle begins                              | 70%  |
-| 5    | 移除     | Remove       | Remove the nth node from the end of the list                 | 70%  |
-| 6    | 翻转     | Reverse      | Reverse a list from position m to n                          | 70%  |
-| 7    | 排序     | Sort         | Sort in ascending order                                      | 70%  |
-| 8    | 分割     | Partition    | All nodes less than x come before nodes greater than or equal to x | 70%  |
-| 9    | 交点     | Intersection | AThe intersection of two linked lists begins                 | 70%  |
-| 10   | 回文     | Palindrome   | Palindrome judgment                                          | 70%  |
-| 11   | 复制     | Copy         | Each node contains an additional random pointer              | 70%  |
+| 序号 | 名称                         | En           | Desciption                                                   | 进度 |
+| ---- | ---------------------------- | ------------ | ------------------------------------------------------------ | ---- |
+| 1    | 链表基础                     | LinkedList   | Basic Knowledge                                              | 0    |
+| 2    | [中间](./linked-list/middle) | Middle       | The Middle Node of the Linked List                           | 100% |
+| 3    | [交换](./linked-list/swap)   | Swap         | Swap every two adjacent nodes                                | 100% |
+| 4    | [环](./linked-list/cycle)    | Cycle        | The node where the cycle begins                              | 100% |
+| 5    | 移除                         | Remove       | Remove the nth node from the end of the list                 | 20%  |
+| 6    | 翻转                         | Reverse      | Reverse a list from position m to n                          | 20%  |
+| 7    | 排序                         | Sort         | Sort in ascending order                                      | 20%  |
+| 8    | 分割                         | Partition    | All nodes less than x come before nodes greater than or equal to x | 20%  |
+| 9    | 交点                         | Intersection | AThe intersection of two linked lists begins                 | 20%  |
+| 10   | 回文                         | Palindrome   | Palindrome judgment                                          | 20%  |
+| 11   | 复制                         | Copy         | Each node contains an additional random pointer              | 20%  |
 
-### 二叉树 Binary Tree 70%
-
-主编：Z8264
+### 二叉树 Binary Tree 20%
 
 | 序号 | 名称       | En                 | Description                                                  | 进度 |
 | ---- | ---------- | ------------------ | ------------------------------------------------------------ | ---- |
 | 1    | 二叉树基础 |                    |                                                              | 0    |
-| 2    | 遍历       | Traversal          | Inorder & Preorder & Postorder & LevelOrder                  | 70%  |
-| 3    | 深度       | Depth              | Maximum Depth & Minimum Depth                                | 70%  |
-| 4    | 构造       | Construct          | Construct Binary Tree from Traversal                         | 70%  |
-| 5    | 视图       | View               | Right Side View & Left Side View                             | 70%  |
-| 6    | 反转       | Invert             | Invert left and right                                        | 70%  |
-| 7    | 相同       | Same               | Same judgment                                                | 70%  |
-| 8    | 对称       | Symmetric          | Symmetric judgment                                           | 70%  |
-| 9    | 二叉搜索树 | Binary Search Tree | BST judgment                                                 | 70%  |
-| 10   | 高度平衡树 | Height Balanced    | Height Balanced judgment                                     | 70%  |
-| 11   | 路经总和   | Path Sum           | All root-to-leaf paths where each path's sum equals targetSum | 70%  |
+| 2    | 遍历       | Traversal          | Inorder & Preorder & Postorder & LevelOrder                  | 20%  |
+| 3    | 深度       | Depth              | Maximum Depth & Minimum Depth                                | 20%  |
+| 4    | 构造       | Construct          | Construct Binary Tree from Traversal                         | 20%  |
+| 5    | 视图       | View               | Right Side View & Left Side View                             | 20%  |
+| 6    | 反转       | Invert             | Invert left and right                                        | 20%  |
+| 7    | 相同       | Same               | Same judgment                                                | 20%  |
+| 8    | 对称       | Symmetric          | Symmetric judgment                                           | 20%  |
+| 9    | 二叉搜索树 | Binary Search Tree | BST judgment                                                 | 20%  |
+| 10   | 高度平衡树 | Height Balanced    | Height Balanced judgment                                     | 20%  |
+| 11   | 路经总和   | Path Sum           | All root-to-leaf paths where each path's sum equals targetSum | 20%  |
 
-### 图 Graphs  -- 进度 0%
+### 图 Graphs  --  0%
 
 1. 深度优先搜索 (DFS)
 2. 广度优先搜索 (BFS)

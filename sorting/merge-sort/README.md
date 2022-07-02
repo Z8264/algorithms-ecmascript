@@ -38,9 +38,3 @@ function sort(arr = []) {
 | -------- | ---------- | -------- | -------- | -------- | ---- | ---- |
 | 归并排序 | Merge sort | n log(n) | n log(n) | n log(n) | n    | Yes  |
 
-#### 3.1 时间复杂度 (Time Complexity)
-
-#### 3.2 空间复杂度 (Space Complexity)
-
-#### 3.3 稳定性 (Stable)
-

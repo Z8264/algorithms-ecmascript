@@ -29,7 +29,7 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
 ## Solution
 
-| 编号 | 解法             | En                          |
+| 编号 | 解法             | Approach                          |
 | ---- | ---------------- | --------------------------- |
 | 1    | 递归             | Recursion                   |
 | 2    | 自底向上进行迭代 | Iterative Top-Down Approach |

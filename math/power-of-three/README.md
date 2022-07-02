@@ -35,7 +35,7 @@ Output: false
 
 ## Solution
 
-| 编号 | 解法     | En                  |
+| 编号 | 解法     | Approach                  |
 | ---- | -------- | ------------------- |
 | 1    | 循环迭代 | Loop Iteration      |
 | 2    | 基准转换 | Base Conversion     |

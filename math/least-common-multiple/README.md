@@ -37,7 +37,7 @@ Output: 18
 
 ## Solution
 
-### 1. 公式推导 (Formula Derivation)
+### 公式推导 (Formula Derivation)
 
 #### 代码示例
 
@@ -50,3 +50,7 @@ const lcm = (a, b) => {
   return Math.abs(a * b) / gcd(a, b);
 };
 ```
+
+#### 复杂度分析
+
+参考最大公约数实现。

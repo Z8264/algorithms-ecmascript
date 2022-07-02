@@ -1,0 +1,109 @@
+# 环 Cycle
+
+链表中环的开始节点。
+
+>  The node where the cycle begins。
+
+## Problem
+
+给定一个链表的头节点  `head` ，返回链表开始入环的第一个节点。 如果链表无环，则返回 `null`。
+
+> Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+
+Example: Tail connects to the second node.
+
+```
+Input: head = 1->2->3->4, [4->2]
+Output: head = 2->3->4
+```
+
+Example: No cycle
+
+```
+Input: head = 1->2
+Output: null
+```
+
+Example: No cycle
+
+```
+Input: head = 1
+Output: null
+```
+
+
+
+## Solution
+
+| 编号 | 解法       | Approach                    |
+| ---- | ---------- | --------------------- |
+| 1    | 哈希表 | HashSet |
+| 2    | 快慢指针法 | Fast and Slow Pointer |
+
+
+### 1. 哈希表 (HashSet)
+
+#### 代码示例
+
+> cycle-hashset.js
+
+``` javascript
+const cycle = (head) => {
+  const hashSet = new Set();
+  while (head) {
+    if (hashSet.has(head)) return head;
+    hashSet.add(head);
+    head = head.next;
+  }
+  return null;
+};
+```
+
+#### 复杂度分析
+
+| 时间复杂度 | 空间复杂度 |
+| ---------- | ---------- |
+| O(n)       | O(n)       |
+
+- 时间复杂度：O(n)，n 为链表中节点的数目，需要访问链表中的每一个节点。
+- 空间复杂度：O(n)，n 为链表中节点的数目，需要将链表中的每个节点都保存在哈希表当中。
+
+### 2. 快慢指针法 (Fast and Slow Pointer)
+
+#### 代码示例
+
+> cycle-pointer.js
+
+``` javascript
+const cycle = (head) => {
+  if (!head || !head.next) return null;
+  let [slow, fast] = [head, head];
+
+  while (fast && fast.next) {
+    slow = slow.next;
+    fast = fast.next.next;
+    if (slow === fast) break;
+  }
+
+  if (slow !== fast) return null;
+
+  let current = head;
+  while (current !== slow) {
+    current = current.next;
+    slow = slow.next;
+  }
+  return current;
+};
+```
+
+#### 复杂度分析
+
+| 时间复杂度 | 空间复杂度 |
+| ---------- | ---------- |
+| O(n)       | O(1)       |
+
+复杂度分析
+
+* 时间复杂度：O(n)，n 为链表中节点的数目。
+
+* 空间复杂度：O(1)。只需要常数空间存放 `slow` 、 `fast`、`current` 三个指针。

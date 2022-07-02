@@ -39,7 +39,7 @@ Explanation: 5! = 5 * 4 * 3 * 2 * 1 = 120
 
 ## Solution
 
-| 编号 | 解法             | En                          |
+| 编号 | 解法             | Approach                          |
 | ---- | ---------------- | --------------------------- |
 | 1    | 递归             | Recursion                   |
 | 2    | 自底向上进行迭代 | Iterative Top-Down Approach |
