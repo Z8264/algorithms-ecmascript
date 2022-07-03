@@ -80,7 +80,7 @@ const fibonacci = (n) => {
 | ---------- | ---------- |
 | O(n)       | O(1)       |
 
-### 3. 数学公式 (Math)
+### 3. 矩阵求幂 (Matrix Exponentiation)
 
 构建以下递推关系：
 
@@ -177,7 +177,7 @@ const fibonacci = (n) => (n <= 0
 | ---------- | ---------- |
 | O(log n)   | O(1)       |
 
-### 4. 矩阵求幂 (Matrix Exponentiation)
+### 4. 数学通项公式 (Math)
 
 根据斐波那契数 F(n) 齐次线性递推，得：
 
@@ -211,6 +211,7 @@ $$
 F(n) = \frac{1}{\sqrt{5}}[(\frac{1+\sqrt{5})}{2})^n-(\frac{1-\sqrt{5})}{2})^n]
 $$
 
+要注意的是，由于通项公式计算过程中的根号计算会导致精度损失，所以返回结果需要进行取整操作
 #### 代码示例
 
 > fibonacci-matrix.js
