@@ -1,4 +1,4 @@
-# 反转 Reverse Part
+# 局部反转 Partial Reverse
 
 ## Problem
 

@@ -1,26 +1,20 @@
-# Algorithms In EcmaScript
+# 🇨🇳 Algorithms In EcmaScript
 
-
-
-<img src="./_imgs/icon/ing.svg" />
-
-## 介绍 Introduction
-
-![](./_imgs/advantage.jpg)
+![Algorithms In EcmaScript](./_imgs/banner/banner.png)
 
 ## 目录 Contents
 
 ### 经验方法 Methodology  0%
 
-| 序号 | **名称**                         | **En**   | 进度 |
-| ---- | -------------------------------- | -------- | ---- |
-| 1    | 用户：谁适合使用本教程？         | Who      |      |
-| 2    | 目的：为什么要学习算法？         | Why      |      |
-| 3    | 内容：算法基础需要掌握那些知识？ | What     |      |
-| 4    | 环境：你需要准备什么样的环境？   | Where    |      |
-| 5    | 计划：如何制定可持续的学习计划？ | When     |      |
-| 6    | 方法：如何高效、牢固的掌握算法？ | How      |      |
-| 7    | 付出：你需要付出什么？           | How Much |      |
+| 序号 | **名称**                         | **En**   | 进度                                          |
+| ---- | -------------------------------- | -------- | --------------------------------------------- |
+| 1    | 用户：谁适合使用本教程？         | Who      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 2    | 目的：为什么要学习算法？         | Why      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 3    | 内容：算法基础需要掌握那些知识？ | What     | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 4    | 环境：你需要准备什么样的环境？   | Where    | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 5    | 计划：如何制定可持续的学习计划？ | When     | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 6    | 方法：如何高效、牢固的掌握算法？ | How      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 7    | 付出：你需要付出什么？           | How Much | <img src="./_imgs/icon/plan.svg" width="24"/> |
 
 ### 排序 Sorting  80%
 
@@ -39,6 +33,17 @@
 | 9    | 基数排序                             | Radix sort     |                                              | <img src="./_imgs/icon/lock.svg" width="24"/> |
 | 10   | [排序总结](./sorting/README.md)      | Sorting        |                                              | <img src="./_imgs/icon/done.svg" width="24"/> |
 
+### 搜索 Search 100%
+
+> <img src="./_imgs/report/search.jpg" width="700" />
+
+| 序号 | 名称                               | En                   | 图解                                         | 进度                                          |
+| ---- | ---------------------------------- | -------------------- | -------------------------------------------- | --------------------------------------------- |
+| 1    | [线性搜索](./search/linear-search) | Linear Search        | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 2    | [跳转搜索](./search/jump-search)   | Jump Search          | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 3    | [二分查找](./search/binary-search) | Binary Search        | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 4    | [差值搜索](./interpolation-search) | Interpolation Search | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
+
 ### 数学 Math 80%
 
 > <img src="./_imgs/report/math.jpg" width="700" />
@@ -54,80 +59,71 @@
 | 7    | [2 的幂](./math/power-of-two)                | Power Of Two            |      | <img src="./_imgs/icon/done.svg" width="24"/> |
 | 8    | [3 的幂](./math/power-of-three)              | Power Of Three          |      | <img src="./_imgs/icon/done.svg" width="24"/> |
 
-### 搜索 Search 100%
-
-> <img src="./_imgs/report/search.jpg" width="700" />
-
-| 序号 | 名称                               | En                   | 图解                                         | 进度                                          |
-| ---- | ---------------------------------- | -------------------- | -------------------------------------------- | --------------------------------------------- |
-| 1    | [线性搜索](./search/linear-search) | Linear Search        | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 2    | [跳转搜索](./search/jump-search)   | Jump Search          | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 3    | [二分查找](./search/binary-search) | Binary Search        | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 4    | [差值搜索](./interpolation-search) | Interpolation Search | <img src="./_imgs/icon/img.svg" width="24"/> | <img src="./_imgs/icon/done.svg" width="24"/> |
-
 ### 字符串 String 0%
 
-| 序号 | 名称               | En                          | 图解 | 进度 |
-| ---- | ------------------ | --------------------------- | ---- | ---- |
-| 1    | 回文               | Palindrome                  |      |      |
-| 2    | 汉明距离           | Hamming Distance            |      |      |
-| 3    | 来温斯坦距离       | Levenshtein distance        |      |      |
-| 4    | KMP 算法           | KMP Algorithm               |      |      |
-| 5    | 字符串快速查找算法 | Z Algorithm                 |      |      |
-| 6    | Rabin Karp 算法    | Rabin Karp Algorithm        |      |      |
-| 7    | 最长公共子串       | Longest Common Substring    |      |      |
-| 8    | 正则表达式匹配     | Regular Expression Matching |      |      |
+| 序号 | 名称               | En                          | 图解 | 进度                                          |
+| ---- | ------------------ | --------------------------- | ---- | --------------------------------------------- |
+| 1    | 回文               | Palindrome                  |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 2    | 汉明距离           | Hamming Distance            |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 3    | 来温斯坦距离       | Levenshtein distance        |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 4    | KMP 算法           | KMP Algorithm               |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 5    | 字符串快速查找算法 | Z Algorithm                 |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 6    | Rabin Karp 算法    | Rabin Karp Algorithm        |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 7    | 最长公共子串       | Longest Common Substring    |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 8    | 正则表达式匹配     | Regular Expression Matching |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
 
 ### 集合 Set 0%
 
-| 序号 | **名称**       | **En**                         | 图解 | 进度 |
-| ---- | -------------- | ------------------------------ | ---- | ---- |
-| 1    | 笛卡尔积       | Cartesian Product              |      |      |
-| 2    | 洗牌算法       | Fisher–Yates Shuffle           |      |      |
-| 3    | 幂集           | Power Set                      |      |      |
-| 4    | 排列           | Permutations                   |      |      |
-| 5    | 组合           | Combinations                   |      |      |
-| 6    | 最长公共子序列 | Longest Common Subsequence     |      |      |
-| 7    | 最长递增子序列 | Longest Increasing Subsequence |      |      |
-| 8    | 最短公共父序列 | Shortest Common Supersequence  |      |      |
-| 9    | 背包问题       | Knapsack Problem               |      |      |
-| 10   | 最大子数列问题 | Maximum Subarray               |      |      |
-| 11   | 组合求和       | Combination Sum                |      |      |
+| 序号 | **名称**       | **En**                         | 图解 | 进度                                          |
+| ---- | -------------- | ------------------------------ | ---- | --------------------------------------------- |
+| 1    | 笛卡尔积       | Cartesian Product              |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 2    | 洗牌算法       | Fisher–Yates Shuffle           |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 3    | 幂集           | Power Set                      |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 4    | 排列           | Permutations                   |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 5    | 组合           | Combinations                   |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 6    | 最长公共子序列 | Longest Common Subsequence     |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 7    | 最长递增子序列 | Longest Increasing Subsequence |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 8    | 最短公共父序列 | Shortest Common Supersequence  |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 9    | 背包问题       | Knapsack Problem               |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 10   | 最大子数列问题 | Maximum Subarray               |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 11   | 组合求和       | Combination Sum                |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
 
 ### 链表 Linked List 80%
 
 > <img src="./_imgs/report/linked-list.jpg" width="700" />
 
-| 序号 | 名称                                   | En           | Desciption                                                   | 进度 |  |
-| ---- | -------------------------------------- | ------------ | ------------------------------------------------------------ | ---- | ---- |
-| 1    | 链表基础                               | Linked List  | Basic Knowledge                                              |     |  |
-| 2    | [中间结点](./linked-list/middle)       | Middle       | The Middle Node of the Linked List                           |  | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 3    | [交换](./linked-list/swap)             | Swap         | Swap every two adjacent nodes                                |  | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 4    | [环检测](./linked-list/cycle-test)     | Cycle Test   | Determine if the linked list has a cycle                     |  | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 5    | [环起点](./linked-list/cycle-begins)   | Cycle Begins | The node where the cycle begins                              |  | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 6    | [移除](./linked-list/remove)          | Remove       | Remove the nth node from the end of the list                 |  | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 7    | [翻转](./linked-list/reverse)          | Reverse      | Reverse a list                                               |  | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 8    | [翻转部分](./linked-list/reverse-part) | Reverse Part | Reverse a list from position m to n                          |  | <img src="./_imgs/icon/done.svg" width="24"/> |
-| 9    | 排序                                   | Sort         | Sort in ascending order                                      |     | <img src="./_imgs/icon/lock.svg" width="24"/> |
-| 10   | 分割                                   | Partition    | All nodes less than x come before nodes greater than or equal to x |     | <img src="./_imgs/icon/lock.svg" width="24"/> |
-| 11   | 交点                                   | Intersection | The intersection of two linked lists begins                  |     | <img src="./_imgs/icon/lock.svg" width="24"/> |
-| 11   | 复制                                   | Copy         | Each node contains an additional random pointer              |     | <img src="./_imgs/icon/lock.svg" width="24"/> |
+| 序号 | 名称                                   | En              | 图解 | 进度                                          |
+| ---- | -------------------------------------- | --------------- | ---- | --------------------------------------------- |
+| 1    | 链表基础                               | Linked List     |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 2    | [中间结点](./linked-list/middle)       | Middle          |      | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 3    | [交换](./linked-list/swap)             | Swap            |      | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 4    | [环检测](./linked-list/cycle-test)     | Cycle Test      |      | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 5    | [环起点](./linked-list/cycle-begins)   | Cycle Begins    |      | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 6    | [移除](./linked-list/remove)           | Remove          |      | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 7    | [翻转](./linked-list/reverse)          | Reverse         |      | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 8    | [局部翻转](./linked-list/reverse-part) | Partial Reverse |      | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 9    | 排序                                   | Sort            |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 10   | 分割                                   | Partition       |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 11   | 交点                                   | Intersection    |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 11   | 复制                                   | Copy            |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
 
 ### 二叉树 Binary Tree 20%
 
-| 序号 | 名称       | En                 | Description                                                  | 进度 |
-| ---- | ---------- | ------------------ | ------------------------------------------------------------ | ---- |
-| 1    | 二叉树基础 | Binary Tree        | Basic Knowledge                                              | 0    |
-| 2    | 遍历       | Traversal          | Inorder & Preorder & Postorder & LevelOrder                  | 20%  |
-| 3    | 深度       | Depth              | Maximum Depth & Minimum Depth                                | 20%  |
-| 4    | 构造       | Construct          | Construct Binary Tree from Traversal                         | 20%  |
-| 5    | 视图       | View               | Right Side View & Left Side View                             | 20%  |
-| 6    | 反转       | Invert             | Invert left and right                                        | 20%  |
-| 7    | 相同       | Same               | Same judgment                                                | 20%  |
-| 8    | 对称       | Symmetric          | Symmetric judgment                                           | 20%  |
-| 9    | 二叉搜索树 | Binary Search Tree | BST judgment                                                 | 20%  |
-| 10   | 高度平衡树 | Height Balanced    | Height Balanced judgment                                     | 20%  |
-| 11   | 路经总和   | Path Sum           | All root-to-leaf paths where each path's sum equals targetSum | 20%  |
+| 序号 | 名称       | En                 | 图解 | 进度                                          |
+| ---- | ---------- | ------------------ | ---- | --------------------------------------------- |
+| 1    | 二叉树基础 | Binary Tree        |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 2    | 遍历       | Traversal          |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 3    | 深度       | Depth              |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 4    | 构造       | Construct          |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 5    | 视图       | View               |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 6    | 反转       | Invert             |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 7    | 相同       | Same               |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 8    | 对称       | Symmetric          |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 9    | 二叉搜索树 | Binary Search Tree |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 10   | 高度平衡树 | Height Balanced    |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 11   | 路经总和   | Path Sum           |      | <img src="./_imgs/icon/plan.svg" width="24"/> |
+
+
 
 ### 图 Graphs  --  0%
 
