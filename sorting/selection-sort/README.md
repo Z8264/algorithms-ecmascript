@@ -6,7 +6,7 @@
 
 ### 1. 图解流程
 
-<img src="../../_imgs/SelectionSort.png" width="480"/>
+<img src="../../_imgs/Sorting-Selection.png" width="480"/>
 
 ### 2. 代码示例
 

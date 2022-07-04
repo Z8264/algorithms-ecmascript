@@ -4,7 +4,7 @@
 
 ### 1. 图解流程
 
-<img src="../../_imgs/QuickSort.png" width="850"/>
+<img src="../../_imgs/Sorting-Quick.png" width="850"/>
 
 ### 2. 代码示例
 

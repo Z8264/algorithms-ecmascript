@@ -4,7 +4,7 @@
 
 ### 1. 图解流程
 
-<img src="../../_imgs/InsertionSort.png" width="500"/>
+<img src="../../_imgs/Sorting-Insertion.png" width="500"/>
 
 ### 2. 代码示例
 

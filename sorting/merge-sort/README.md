@@ -4,7 +4,7 @@
 
 ## 1. 图解流程
 
-<img src="../../_imgs/MergeSort.png" width="750"/>
+<img src="../../_imgs/Sorting-Merge.png" width="750"/>
 
 ### 2. 代码示例
 

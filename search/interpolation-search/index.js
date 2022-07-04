@@ -9,6 +9,7 @@ const search = (arr = [], target = null) => {
     if (!range) return arr[start] === target ? start : -1;
 
     const mid = start + Math.floor((value * (end - start)) / range);
+    console.log(start, end, mid);
     if (arr[mid] === target) return mid;
     if (arr[mid] < target) start = mid + 1;
     else end = mid - 1;
@@ -16,4 +17,6 @@ const search = (arr = [], target = null) => {
   return -1;
 };
 
-export default search;
+search([2, 4, 6, 8, 10, 12, 14, 16, 18], 12);
+
+// export default search;

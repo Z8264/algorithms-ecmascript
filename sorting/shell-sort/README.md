@@ -4,7 +4,7 @@
 
 ### 1. 图解流程
 
-<img src="../../_imgs/ShellSort.png" width="560"/>
+<img src="../../_imgs/Sorting-Shell.png" width="560"/>
 
 ### 2. 代码示例
 
@@ -32,14 +32,3 @@ function sort(arr = []) {
 | 名称     | En         | 最优     | 平均           | 最坏         | 内存 | 稳定 |
 | -------- | ---------- | -------- | -------------- | ------------ | ---- | ---- |
 | 希尔排序 | Shell sort | n log(n) | 取决于差距序列 | n (log(n))^2 | 1    | No   |
-
-#### 3.1 时间复杂度 (Time Complexity)
-
-#### 3.2 空间复杂度 (Space Complexity)
-
-#### 3.3 稳定性 (Stable)
-
-
-
-
-

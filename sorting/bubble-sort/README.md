@@ -9,7 +9,7 @@
 
 ### 1. 图解流程
 
-<img src="../../_imgs/BubbleSort.png" width="1050"/>
+<img src="../../_imgs/Sorting-Bubble.png" width="1050"/>
 
 ### 2. 代码示例
 
