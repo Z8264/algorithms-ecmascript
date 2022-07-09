@@ -1,9 +1,9 @@
-const inorder = (root, arr = []) => {
+const preorder = (root, arr = []) => {
   if (root) {
     arr.push(root.val);
-    inorder(root.left, arr);
-    inorder(root.right, arr);
+    preorder(root.left, arr);
+    preorder(root.right, arr);
   }
   return arr;
 };
-export default inorder;
+export default preorder;

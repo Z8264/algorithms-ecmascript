@@ -1,6 +1,3 @@
-/**
- * recursion
- */
 const levelOrder = (root, level = 0, arr = []) => {
   if (root) {
     if (!arr[level]) arr[level] = [];

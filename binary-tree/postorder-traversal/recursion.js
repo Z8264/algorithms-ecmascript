@@ -1,6 +1,3 @@
-/**
- * recursion
- */
 const postorder = (root, arr = []) => {
   if (root) {
     postorder(root.left, arr);
@@ -9,5 +6,4 @@ const postorder = (root, arr = []) => {
   }
   return arr;
 };
-
 export default postorder;

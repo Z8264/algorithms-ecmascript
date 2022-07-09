@@ -1,10 +1,7 @@
-/**
- * iteration
- */
 const postorder = (root) => {
-  const stack = [];
   const result = [];
 
+  const stack = [];
   let prev;
   while (root || stack.length) {
     while (root) {
@@ -21,6 +18,7 @@ const postorder = (root) => {
       root = root.right;
     }
   }
+
   return result;
 };
 

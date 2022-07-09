@@ -1,6 +1,3 @@
-/**
- * iteration
- */
 const levelOrder = (root) => {
   if (!root) return [];
   const queue = [root];

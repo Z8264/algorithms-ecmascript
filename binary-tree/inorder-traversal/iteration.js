@@ -1,9 +1,7 @@
-/**
- * iteration
- */
 const inorder = (root) => {
-  const stack = [];
   const result = [];
+
+  const stack = [];
   while (root || stack.length) {
     while (root) {
       stack.push(root);
@@ -13,6 +11,7 @@ const inorder = (root) => {
     result.push(root.val);
     root = root.right;
   }
+
   return result;
 };
 
