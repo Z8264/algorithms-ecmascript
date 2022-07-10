@@ -1,9 +1,5 @@
 ![Algorithms In EcmaScript](./_imgs/banner/logo.jpg)
 
-
-
-
-
 ## 目录 Contents
 
 ### 经验方法 Methodology  0%
@@ -111,20 +107,20 @@
 
 ### 二叉树 Binary Tree 20%
 
-| 序号 | 名称                                            | En                    | 图解 | 进度 |
-| ---- | ----------------------------------------------- | --------------------- | ---- | ---- |
-| 1    | 二叉树基础                                      | Binary Tree           |      |      |
-| 2    | [前序遍历](./binary-tree/preorder-traversal)    | Preorder Traversal    |      |      |
-| 3    | [中序遍历](./binary-tree/inorder-traversal)     | Inorder Traversal     |      |      |
-| 4    | [后序遍历](./binary-tree/postorder-traversal)   | Postordr Traversal    |      |      |
-| 5    | [层序遍历](./binary-tree/level-order-traversal) | Level Order Traversal |      |      |
-| 6    | 反转                                            | Invert                |      |      |
-| 7    | 相同                                            | Same                  |      |      |
-| 8    | 对称                                            | Symmetric             |      |      |
-| 9    | 二叉搜索树                                      | Binary Search Tree    |      |      |
-| 10   | 高度平衡树                                      | Height Balanced       |      |      |
-| 11   | 路经总和                                        | Path Sum              |      |      |
-
+| 序号 | 名称                                               | En                       | 难度   | 进度 |
+| ---- | -------------------------------------------------- | ------------------------ | ------ | ---- |
+| 1    | 二叉树基础                                         | Binary Tree              | `EASY` |      |
+| 2    | [前序遍历](./binary-tree/02-preorder-traversal)    | Preorder Traversal       | `EASY` |      |
+| 3    | [中序遍历](./binary-tree/03-inorder-traversal)     | Inorder Traversal        | `EASY` |      |
+| 4    | [后序遍历](./binary-tree/04-postorder-traversal)   | Postordr Traversal       | `EASY` |      |
+| 5    | [层序遍历](./binary-tree/05-level-order-traversal) | Level Order Traversal    | `EASY` |      |
+| 6    | [最大深度](./binary-tree/06-maximum-depth)         | Maximum Depth            | `EASY` |      |
+| 7    | [最小深度](./binary-tree/07-minimum-depth)         | Minimum Depth            | `EASY` |      |
+| 8    | [左视图](./binary-tree/08-left-side-view)          | Left Side View           | `EASY` |      |
+| 9    | [右视图](./binary-tree/09-right-side-view)         | Right Side View          | `EASY` |      |
+| 10   | [反转](./binary-tree/10-invert)                    | Invert                   | `EASY` |      |
+| 11   | [二叉搜索树](./binary-tree/11-bst)                 | BST (Binary Search Tree) | `EASY` |      |
+| 12   | [平衡二叉树](./binary-tree/12-height-balanced)     | Height Balanced          | `EASY` |      |
 
 ### 图 Graphs  --  0%
 
@@ -154,6 +150,3 @@ If you think that these can be improved in anyway, please do suggest.
 ## License
 
 [![License: CC BY-NC-ND 3.0](https://camo.githubusercontent.com/737aad0c1bf5098da05669813f8cd78959bf684cbee9c91d33fc1e01336a36a0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d434325323042592d2d4e432d2d4e44253230332e302d6c69676874677265792e737667)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
-
-
-
