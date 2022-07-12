@@ -1,22 +1,16 @@
 ![Algorithms In EcmaScript](./_imgs/banner/logo.jpg)
 
-
-
 ## 目录 Contents
 
 ![Algorithms In EcmaScript](./_imgs/banner/star.jpg)
 
 ### 经验方法 Methodology
 
-| 序号 | **名称**                         | **En**   | 进度                                          |
-| ---- | -------------------------------- | -------- | --------------------------------------------- |
-| 1    | 用户：谁适合使用本教程？         | Who      | <img src="./_imgs/icon/plan.svg" width="24"/> |
-| 2    | 目的：为什么要学习算法？         | Why      | <img src="./_imgs/icon/plan.svg" width="24"/> |
-| 3    | 内容：算法基础需要掌握那些知识？ | What     | <img src="./_imgs/icon/plan.svg" width="24"/> |
-| 4    | 环境：你需要准备什么样的环境？   | Where    | <img src="./_imgs/icon/plan.svg" width="24"/> |
-| 5    | 计划：如何制定可持续的学习计划？ | When     | <img src="./_imgs/icon/plan.svg" width="24"/> |
-| 6    | 方法：如何高效、牢固的掌握算法？ | How      | <img src="./_imgs/icon/plan.svg" width="24"/> |
-| 7    | 付出：你需要付出什么？           | How Much | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 序号 | **名称**                             | **En** | 进度                                          |
+| ---- | ------------------------------------ | ------ | --------------------------------------------- |
+| 1    | [用户：谁适合使用本教程？](./WHO.md) | Who    | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 2    | [目的：为什么要学习算法？](./WHY.md) | Why    | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 3    | [方法：如何高效掌握算法？](./HOW.md) | How    | <img src="./_imgs/icon/done.svg" width="24"/> |
 
 ### 排序 Sorting
 
@@ -62,20 +56,20 @@
 
 > **100%** Statements `191/191` 	**100%** Branches `97/97`	**100%** Functions `19/19`	**100%** Lines `165/165`
 
-| 序号 | 名称                                               | En                       | 难度   | 进度 |
-| ---- | -------------------------------------------------- | ------------------------ | ------ | ---- |
-| 1    | 二叉树基础                                         | Binary Tree              | `EASY` |      |
-| 2    | [前序遍历](./binary-tree/02-preorder-traversal)    | Preorder Traversal       | `EASY` |      |
-| 3    | [中序遍历](./binary-tree/03-inorder-traversal)     | Inorder Traversal        | `EASY` |      |
-| 4    | [后序遍历](./binary-tree/04-postorder-traversal)   | Postordr Traversal       | `EASY` |      |
-| 5    | [层序遍历](./binary-tree/05-level-order-traversal) | Level Order Traversal    | `EASY` |      |
-| 6    | [最大深度](./binary-tree/06-maximum-depth)         | Maximum Depth            | `EASY` |      |
-| 7    | [最小深度](./binary-tree/07-minimum-depth)         | Minimum Depth            | `EASY` |      |
-| 8    | [左视图](./binary-tree/08-left-side-view)          | Left Side View           | `EASY` |      |
-| 9    | [右视图](./binary-tree/09-right-side-view)         | Right Side View          | `EASY` |      |
-| 10   | [反转](./binary-tree/10-invert)                    | Invert                   | `EASY` |      |
-| 11   | [二叉搜索树](./binary-tree/11-bst)                 | BST (Binary Search Tree) | `EASY` |      |
-| 12   | [平衡二叉树](./binary-tree/12-height-balanced)     | Height Balanced          | `EASY` |      |
+| 序号 | 名称                                               | En                       | 难度   | 进度                                          |
+| ---- | -------------------------------------------------- | ------------------------ | ------ | --------------------------------------------- |
+| 1    | 二叉树基础                                         | Binary Tree              | `EASY` | <img src="./_imgs/icon/plan.svg" width="24"/> |
+| 2    | [前序遍历](./binary-tree/02-preorder-traversal)    | Preorder Traversal       | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 3    | [中序遍历](./binary-tree/03-inorder-traversal)     | Inorder Traversal        | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 4    | [后序遍历](./binary-tree/04-postorder-traversal)   | Postordr Traversal       | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 5    | [层序遍历](./binary-tree/05-level-order-traversal) | Level Order Traversal    | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 6    | [最大深度](./binary-tree/06-maximum-depth)         | Maximum Depth            | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 7    | [最小深度](./binary-tree/07-minimum-depth)         | Minimum Depth            | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 8    | [左视图](./binary-tree/08-left-side-view)          | Left Side View           | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 9    | [右视图](./binary-tree/09-right-side-view)         | Right Side View          | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 10   | [反转](./binary-tree/10-invert)                    | Invert                   | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 11   | [二叉搜索树](./binary-tree/11-bst)                 | BST (Binary Search Tree) | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
+| 12   | [平衡二叉树](./binary-tree/12-height-balanced)     | Height Balanced          | `EASY` | <img src="./_imgs/icon/done.svg" width="24"/> |
 
 ### 数学 Math
 
@@ -95,6 +89,8 @@
 -------
 
 > ⭐️ 点赞突破 **1000** 解锁全部内容
+
+-------
 
 ### 🔒 字符串 String
 
