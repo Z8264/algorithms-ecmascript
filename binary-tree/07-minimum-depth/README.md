@@ -1,6 +1,6 @@
 # 最小深度 Minimum Depth
 
-最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
+二叉树的最小深度定义：从根节点到最近叶子节点的最短路径上的节点数量。
 
 > The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
 
@@ -10,7 +10,7 @@
 
 ## Problem
 
-给定一个二叉树，返回它的最小深度。
+返回二叉树的最小深度。
 
 > Given a binary tree, find its minimum depth.
 
@@ -50,12 +50,12 @@ Output: 0
 ``` js
 const minimum = (root, min = Infinity) => {
   if (!root) return 0;
-  if (!root.left || !root.right) return 1;
+  if (!root.left && !root.right) return 1;
   if (root.left) {
-    min = Math.min(minimum(root.left), min) + 1;
+    min = Math.min(minimum(root.left), min);
   }
   if (root.right) {
-    min = Math.min(minimum(root.right), min) + 1;
+    min = Math.min(minimum(root.right), min);
   }
   return min + 1;
 };

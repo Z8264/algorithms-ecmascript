@@ -1,11 +1,11 @@
-import { TreeNode } from '../../utils';
+import TreeNode from '../../utils';
 import recursion from '../recursion';
 import iteration from '../iteration';
 
-const preorder = { recursion, iteration };
+const traversal = { recursion, iteration };
 
-Object.keys(preorder).forEach((key) => {
-  test(`Preorder Traversal: ${key}`, () => {
+Object.keys(traversal).forEach((key) => {
+  test(`Postorder Traversal: ${key}`, () => {
     const tree = new TreeNode('A');
     tree.left = new TreeNode('B');
     tree.right = new TreeNode('C');
@@ -15,6 +15,10 @@ Object.keys(preorder).forEach((key) => {
     tree.right.left = new TreeNode('F');
     tree.left.left.right = new TreeNode('G');
 
-    expect(preorder[key](tree).join()).toBe('G,D,E,B,F,C,A');
+    expect(traversal[key](tree).join()).toBe('G,D,E,B,F,C,A');
+  });
+
+  test(`Null: ${key}`, () => {
+    expect(traversal[key](null).join()).toBe('');
   });
 });

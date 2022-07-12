@@ -1,12 +1,10 @@
 # 右视图 Right Side View
 
-
-
-
-
 <img src="../../_imgs/BT-Right-Side-View.png" width="460"/>
 
 ## Problem
+
+假设站在右面，从上往下看，返回能够看到的结点。
 
 > Given the `root` of a binary tree, imagine yourself standing on the **right side** of it, return *the values of the nodes you can see ordered from top to bottom*.
 
@@ -24,18 +22,12 @@ Input: root = []
 Output: []
 ```
 
-
-
 ## Solution
-
-
 
 | 编号 | 解法 | Approach  |
 | ---- | ---- | --------- |
 | 1    | 递归 | Recursion |
 | 2    | 迭代 | Iteration |
-
-
 
 ### 1. 递归 Recursion
 
@@ -91,4 +83,3 @@ const view = (root) => {
 | 时间复杂度 | 空间复杂度 |
 | ---------- | ---------- |
 | O(n)       | O(n)       |
-

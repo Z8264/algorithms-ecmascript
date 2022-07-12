@@ -1,4 +1,4 @@
-import { TreeNode } from '../utils';
+import TreeNode from '../utils';
 import isBST from './isBST';
 
 test('is BST: true', () => {

@@ -1,6 +1,6 @@
 # 最大深度 Maximum Depth
 
-二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
+二叉树的最大深度的定义：根节点到最远叶子节点的最长路径上的节点数。
 
 > A binary tree's **maximum depth** is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
@@ -10,7 +10,7 @@
 
 ## Problem
 
-给定一个二叉树，返回它的最大深度。
+返回二叉树的最大深度。
 
 > Given the `root` of a binary tree, return *its maximum depth*.
 

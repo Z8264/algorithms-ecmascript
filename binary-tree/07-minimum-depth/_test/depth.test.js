@@ -1,11 +1,11 @@
-import { TreeNode } from '../../utils';
+import TreeNode from '../../utils';
 import recursion from '../recursion';
 import iteration from '../iteration';
 
-const minimum = { recursion, iteration };
+const depth = { recursion, iteration };
 
-Object.keys(minimum).forEach((key) => {
-  test(`Preorder Traversal: ${key}`, () => {
+Object.keys(depth).forEach((key) => {
+  test(`Minimum Depth : ${key}`, () => {
     const tree = new TreeNode('A');
     tree.left = new TreeNode('B');
     tree.right = new TreeNode('C');
@@ -15,6 +15,17 @@ Object.keys(minimum).forEach((key) => {
     tree.right.left = new TreeNode('F');
     tree.left.left.right = new TreeNode('G');
 
-    expect(minimum[key](tree)).toBe(3);
+    expect(depth[key](tree)).toBe(3);
+  });
+
+  test(`Minimum Depth : ${key}`, () => {
+    const tree = new TreeNode('A');
+    tree.left = new TreeNode('B');
+
+    expect(depth[key](tree)).toBe(2);
+  });
+
+  test(`Null: ${key}`, () => {
+    expect(depth[key](null)).toBe(0);
   });
 });

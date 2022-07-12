@@ -1,12 +1,12 @@
 const minimum = (root) => {
   if (!root) return 0;
-  const queue = [root];
-  let level = 1;
+  let queue = [root];
+  let level = 0;
   while (queue.length) {
     let { length } = queue;
     while (length) {
       const node = queue.shift();
-      if (!node.left && !node.right) return level;
+      if (!node.left && !node.right) { queue = []; break; }
       if (node.left) queue.push(node.left);
       if (node.right) queue.push(node.right);
       length -= 1;

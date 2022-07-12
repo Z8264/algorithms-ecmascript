@@ -8,7 +8,7 @@
 
 ## Problem
 
-
+返回二叉树的后序遍历。
 
 > Given the `root` of a binary tree, return *the postorder traversal of its nodes' values*.
 
@@ -124,4 +124,3 @@ const postorder = (root) => {
 | ---------- | ---------- |
 | O(n)       | O(1)       |
 
-### 

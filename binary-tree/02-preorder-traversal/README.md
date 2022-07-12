@@ -10,7 +10,7 @@
 
 ## Problem
 
-
+返回二叉树的前序遍历。
 
 > Given the `root` of a binary tree, return *the preorder traversal of its nodes' values*.
 

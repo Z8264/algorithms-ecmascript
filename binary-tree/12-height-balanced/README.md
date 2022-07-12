@@ -8,7 +8,7 @@
 
 ## Problem
 
-给定一个二叉树，判断它是否是高度平衡的二叉树。
+判断二叉树是否是高度平衡的二叉树。
 
 > Given a binary tree, determine if it is height-balanced.
 

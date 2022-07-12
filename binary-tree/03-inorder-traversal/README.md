@@ -8,7 +8,7 @@
 
 ## Problem
 
-
+返回二叉树的中序遍历。
 
 > Given the `root` of a binary tree, return *the inorder traversal of its nodes' values*.
 
@@ -115,5 +115,3 @@ const inorder = (root) => {
 | 时间复杂度 | 空间复杂度 |
 | ---------- | ---------- |
 | O(n)       | O(1)       |
-
-### 

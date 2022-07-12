@@ -1,27 +1,30 @@
-import { TreeNode } from '../../utils';
+import TreeNode from '../../utils';
 
 import invert from '../invert';
 
 test('invert', () => {
-  const tree = new TreeNode(4);
-  tree.left = new TreeNode(2);
-  tree.right = new TreeNode(7);
+  const tree = new TreeNode('A');
+  tree.left = new TreeNode('B');
+  tree.right = new TreeNode('C');
 
-  tree.left.left = new TreeNode(1);
-  tree.left.right = new TreeNode(3);
-
-  tree.right.left = new TreeNode(6);
-  tree.right.right = new TreeNode(9);
+  tree.left.left = new TreeNode('D');
+  tree.left.right = new TreeNode('E');
+  tree.right.left = new TreeNode('F');
+  tree.left.left.right = new TreeNode('G');
 
   const newTree = invert(tree);
 
-  expect(newTree.val).toBe(4);
-  expect(newTree.left.val).toBe(7);
-  expect(newTree.right.val).toBe(2);
+  expect(newTree.val).toBe('A');
+  expect(newTree.left.val).toBe('C');
+  expect(newTree.right.val).toBe('B');
 
-  expect(newTree.left.left.val).toBe(9);
-  expect(newTree.left.right.val).toBe(6);
+  expect(newTree.right.right.val).toBe('D');
+  expect(newTree.right.left.val).toBe('E');
 
-  expect(newTree.right.left.val).toBe(3);
-  expect(newTree.right.right.val).toBe(1);
+  expect(newTree.left.right.val).toBe('F');
+  expect(newTree.right.right.left.val).toBe('G');
+});
+
+test('invert null', () => {
+  expect(invert(null)).toBe(null);
 });

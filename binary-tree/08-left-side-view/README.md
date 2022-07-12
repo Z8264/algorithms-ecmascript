@@ -8,6 +8,8 @@
 
 ## Problem
 
+假设站在左面，从上往下看，返回能够看到的结点。
+
 > Given the `root` of a binary tree, imagine yourself standing on the **left side** of it, return *the values of the nodes you can see ordered from top to bottom*.
 
 Example:

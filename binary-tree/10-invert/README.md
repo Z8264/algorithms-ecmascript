@@ -1,10 +1,10 @@
 # 反转 Invert
 
-
+<img src="../../_imgs/BT-Invert.png" width="620"/>
 
 ## Problem
 
-给定一个二叉树，返回它的最小深度。
+反转二叉树。
 
 > Invert a binary tree.
 
@@ -12,7 +12,7 @@ Example:
 
 ``` bash
 Input: root = [A,[B,C],[D,E,F,null],[null,G]]
-Output: 3
+Output: [A,[C,B],[null,F,E,D],[null,null,null,null,null,null,G]]
 ```
 
 Example:

@@ -2,7 +2,7 @@
 
 
 
-二叉搜索树定义如下：
+二叉搜索树定义：
 
 - 节点的左子树只包含 **小于** 当前节点的数。
 - 节点的右子树只包含 **大于** 当前节点的数。
@@ -16,7 +16,7 @@
 
 ## Problem
 
-给你一个二叉树的根节点 `root` ，判断其是否是一个有效的二叉搜索树。
+判断二叉树是否是有效的二叉搜索树。
 
 > Given the `root` of a binary tree, *determine if it is a valid binary search tree (BST)*.
 
@@ -78,22 +78,7 @@ Output: false
 > iteration.js
 
 ``` js
-const view = (root) => {
-  if (!root) return [];
-  const queue = [root];
-  const result = [];
-  while (queue.length) {
-    let { length } = queue;
-    while (length) {
-      const node = queue.shift();
-      if (length === 1) result.push(node.val);
-      if (node.left) queue.push(node.left);
-      if (node.right) queue.push(node.right);
-      length -= 1;
-    }
-  }
-  return result;
-};
+
 ```
 
 #### 复杂度分析

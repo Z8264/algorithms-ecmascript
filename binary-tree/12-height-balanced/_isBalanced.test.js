@@ -1,4 +1,4 @@
-import { TreeNode } from '../utils';
+import TreeNode from '../utils';
 import isBalanced from './isBalanced';
 
 test('is balanced: true', () => {

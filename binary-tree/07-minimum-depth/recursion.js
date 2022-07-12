@@ -1,11 +1,11 @@
 const minimum = (root, min = Infinity) => {
   if (!root) return 0;
-  if (!root.left || !root.right) return 1;
+  if (!root.left && !root.right) return 1;
   if (root.left) {
-    min = Math.min(minimum(root.left), min) + 1;
+    min = Math.min(minimum(root.left), min);
   }
   if (root.right) {
-    min = Math.min(minimum(root.right), min) + 1;
+    min = Math.min(minimum(root.right), min);
   }
   return min + 1;
 };
